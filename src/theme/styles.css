@@ -1,9 +1,90 @@
-body {
+* {
+  box-sizing: border-box; }
+
+html, body {
   margin: 0;
-  background: #000;
-  font-size: 30px; }
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background: #FFFFFF; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.container:after, .container:before {
+  clear: both;
+  display: table;
+  content: ''; }
+
+a {
+  text-decoration: none;
+  color: initial; }
+
+.headerContainer {
+  line-height: 70px;
+  background: #FFFFFF; }
+
+nav {
+  float: right;
+  height: auto; }
+  nav ul {
+    padding: 0; }
+  nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 9px 12px 23px;
+    font-weight: 500; }
+
+.logo {
+  float: left;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 26px; }
+  .logo span {
+    color: #86BC42; }
+
+.searchContainer {
+  float: left;
+  margin-left: 18px; }
+  .searchContainer span {
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    height: 2px;
+    padding: 15px;
+    margin: 0 1px 0;
+    font-weight: bold;
+    letter-spacing: 0;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    color: #FFFFFF;
+    background-color: #86BC42;
+    transition: 0.4s all; }
+    .searchContainer span:hover {
+      background: #FFFFFF;
+      color: #86BC42;
+      border: 1px solid #86BC42; }
+  .searchContainer input {
+    padding: 12px;
+    padding-left: 24px;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    line-height: 1.5; }
 
 .productsContainer {
   background: red; }
+
+.sliderContainer {
+  background: blue;
+  height: 700px;
+  background-size: cover; }
 
 /*# sourceMappingURL=styles.css.map */

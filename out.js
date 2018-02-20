@@ -22212,11 +22212,73 @@ var Header = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 "div",
-                { className: "headerContainer" },
+                { className: "container headerContainer" },
                 _react2.default.createElement(
                     "h1",
                     null,
-                    "header"
+                    _react2.default.createElement(
+                        "a",
+                        { className: "logo", href: "#" },
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "Green"
+                        ),
+                        "Mart"
+                    )
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { className: "searchContainer" },
+                    _react2.default.createElement("input", { placeholder: "I'm searching for..." }),
+                    _react2.default.createElement(
+                        "span",
+                        null,
+                        "SEARCH"
+                    )
+                ),
+                _react2.default.createElement(
+                    "nav",
+                    null,
+                    _react2.default.createElement(
+                        "ul",
+                        null,
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "HOME \u2228"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Shop \u2228"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Blog \u2228"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Pages"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Fresh Meat"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Vegetables"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Fruits"
+                        )
+                    )
                 )
             );
         }

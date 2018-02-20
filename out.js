@@ -22246,37 +22246,90 @@ var Header = function (_React$Component) {
                         _react2.default.createElement(
                             "li",
                             null,
-                            "HOME \u2228"
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Home \u2228"
+                            )
                         ),
                         _react2.default.createElement(
                             "li",
                             null,
-                            "Shop \u2228"
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Shop \u2228"
+                            )
                         ),
                         _react2.default.createElement(
                             "li",
                             null,
-                            "Blog \u2228"
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Blog \u2228"
+                            )
                         ),
                         _react2.default.createElement(
                             "li",
                             null,
-                            "Pages"
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Pages"
+                            )
                         ),
                         _react2.default.createElement(
                             "li",
                             null,
-                            "Fresh Meat"
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Fresh Meat"
+                            )
                         ),
                         _react2.default.createElement(
                             "li",
                             null,
-                            "Vegetables"
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Vegetables"
+                            )
                         ),
                         _react2.default.createElement(
                             "li",
                             null,
-                            "Fruits"
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Fruits"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "div",
+                        { className: "rightMenu" },
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Hello"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Login"
+                        ),
+                        _react2.default.createElement("img", { src: "src/images/carticon.png" }),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "My cart \u2228"
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "$0.00"
                         )
                     )
                 )
@@ -22332,7 +22385,7 @@ var Slider = function (_React$Component) {
                 _react2.default.createElement(
                     "h2",
                     null,
-                    "slider"
+                    "tu bedzie slider"
                 )
             );
         }

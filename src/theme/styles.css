@@ -27,18 +27,33 @@ a {
 
 .headerContainer {
   line-height: 70px;
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  height: 70px; }
 
 nav {
-  float: right;
-  height: auto; }
+  height: 70px; }
+  nav a {
+    font-weight: bold;
+    font-size: 14px; }
   nav ul {
     padding: 0; }
   nav li {
     display: inline-block;
     text-decoration: none;
-    padding: 9px 12px 23px;
-    font-weight: 500; }
+    cursor: pointer;
+    padding: 2px 12px 2px;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.4s all; }
+    nav li:hover {
+      background: #86BC42;
+      border: 1px solid #86BC42; }
+      nav li:hover a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #FFFFFF;
+        transition: 0.4s all; }
 
 .logo {
   float: left;
@@ -79,11 +94,16 @@ nav {
     border: 1px solid #e6e6e6;
     line-height: 1.5; }
 
+.rightMenu {
+  float: right; }
+  .rightMenu li {
+    display: block; }
+
 .productsContainer {
   background: red; }
 
 .sliderContainer {
-  background: blue;
+  background: #c6fff6;
   height: 700px;
   background-size: cover; }
 

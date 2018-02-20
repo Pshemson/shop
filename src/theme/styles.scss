@@ -48,20 +48,37 @@ a {
 .headerContainer {
   line-height: 70px;
   background: #FFFFFF;
+  height: 70px;
 }
 
-
 nav {
-  float: right;
-  height: auto;
+  height: 70px;
+  a {
+    font-weight: bold;
+    font-size: 14px;
+  }
   ul {
     padding: 0;
   }
   li {
     display: inline-block;
     text-decoration: none;
-    padding: 9px 12px 23px;
-    font-weight: 500;
+    cursor: pointer;
+    padding: 2px 12px 2px;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.4s all;
+    &:hover {
+      background: #86BC42;
+      border: 1px solid #86BC42;
+      a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #FFFFFF;
+        transition: 0.4s all;
+      }
+    }
   }
 }
 
@@ -115,7 +132,12 @@ nav {
 
 }
 
-
+.rightMenu {
+  float: right;
+  li {
+    display: block;
+  }
+}
 //Products
 
 .productsContainer {
@@ -125,7 +147,7 @@ nav {
 
 //Slider
 .sliderContainer {
-  background: blue;
+  background: #c6fff6;
   height: 700px;
   background-size: cover;
 }

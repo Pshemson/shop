@@ -12,14 +12,35 @@ class Header extends React.Component {
                 </div>
                 <nav>
                     <ul>
-                        <li>HOME &or;</li>
-                        <li>Shop &or;</li>
-                        <li>Blog &or;</li>
-                        <li>Pages</li>
-                        <li>Fresh Meat</li>
-                        <li>Vegetables</li>
-                        <li>Fruits</li>
+                        <li>
+                            <a href="#">Home &or;</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop &or;</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog &or;</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#">Fresh Meat</a>
+                        </li>
+                        <li>
+                            <a href="#">Vegetables</a>
+                        </li>
+                        <li>
+                            <a href="#">Fruits</a>
+                        </li>
                     </ul>
+                    <div className="rightMenu">
+                        <li>Hello</li>
+                        <li>Login</li>
+                        <img src="src/images/carticon.png"/>
+                        <span>My cart &or;</span>
+                        <span>$0.00</span>
+                    </div>
                 </nav>
             </div>
         );

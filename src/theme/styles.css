@@ -26,22 +26,20 @@ a {
   color: initial; }
 
 .headerContainer {
-  line-height: 70px;
+  line-height: 44px;
   background: #FFFFFF;
   height: 70px; }
 
 nav {
-  height: 70px; }
+  float: left; }
   nav a {
     font-weight: bold;
     font-size: 14px; }
-  nav ul {
-    padding: 0; }
   nav li {
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     cursor: pointer;
-    padding: 2px 12px 2px;
+    padding: 12px 12px 12px;
     border: 1px solid #FFFFFF;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -57,7 +55,6 @@ nav {
 
 .logo {
   float: left;
-  display: inline-block;
   font-weight: bold;
   font-size: 26px; }
   .logo span {
@@ -95,9 +92,15 @@ nav {
     line-height: 1.5; }
 
 .rightMenu {
-  float: right; }
+  float: left;
+  height: auto; }
   .rightMenu li {
-    display: block; }
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    border: none; }
+  .rightMenu span {
+    font-size: 14px; }
 
 .productsContainer {
   background: red; }

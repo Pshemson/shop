@@ -22306,31 +22306,31 @@ var Header = function (_React$Component) {
                                 "Fruits"
                             )
                         )
+                    )
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { className: "rightMenu" },
+                    _react2.default.createElement(
+                        "li",
+                        null,
+                        "Hello"
                     ),
                     _react2.default.createElement(
-                        "div",
-                        { className: "rightMenu" },
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            "Hello"
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            "Login"
-                        ),
-                        _react2.default.createElement("img", { src: "src/images/carticon.png" }),
-                        _react2.default.createElement(
-                            "span",
-                            null,
-                            "My cart \u2228"
-                        ),
-                        _react2.default.createElement(
-                            "span",
-                            null,
-                            "$0.00"
-                        )
+                        "li",
+                        null,
+                        "Login"
+                    ),
+                    _react2.default.createElement("img", { src: "src/images/carticon.png" }),
+                    _react2.default.createElement(
+                        "span",
+                        null,
+                        "My cart \u2228"
+                    ),
+                    _react2.default.createElement(
+                        "span",
+                        null,
+                        "$0.00"
                     )
                 )
             );
@@ -22382,11 +22382,7 @@ var Slider = function (_React$Component) {
             return _react2.default.createElement(
                 "div",
                 { className: "sliderContainer" },
-                _react2.default.createElement(
-                    "h2",
-                    null,
-                    "tu bedzie slider"
-                )
+                _react2.default.createElement("h2", null)
             );
         }
     }]);

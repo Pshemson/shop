@@ -34,6 +34,7 @@ class Header extends React.Component {
                             <a href="#">Fruits</a>
                         </li>
                     </ul>
+                </nav>
                     <div className="rightMenu">
                         <li>Hello</li>
                         <li>Login</li>
@@ -41,7 +42,7 @@ class Header extends React.Component {
                         <span>My cart &or;</span>
                         <span>$0.00</span>
                     </div>
-                </nav>
+
             </div>
         );
     }

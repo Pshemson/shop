@@ -22307,31 +22307,6 @@ var Header = function (_React$Component) {
                             )
                         )
                     )
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { className: "rightMenu" },
-                    _react2.default.createElement(
-                        "li",
-                        null,
-                        "Hello"
-                    ),
-                    _react2.default.createElement(
-                        "li",
-                        null,
-                        "Login"
-                    ),
-                    _react2.default.createElement("img", { src: "src/images/carticon.png" }),
-                    _react2.default.createElement(
-                        "span",
-                        null,
-                        "My cart \u2228"
-                    ),
-                    _react2.default.createElement(
-                        "span",
-                        null,
-                        "$0.00"
-                    )
                 )
             );
         }
@@ -22382,7 +22357,10 @@ var Slider = function (_React$Component) {
             return _react2.default.createElement(
                 "div",
                 { className: "sliderContainer" },
-                _react2.default.createElement("h2", null)
+                _react2.default.createElement("h2", null),
+                _react2.default.createElement("img", { src: "src/images/slider-31.jpg" }),
+                _react2.default.createElement("span", { className: "prevSlide" }),
+                _react2.default.createElement("span", { className: "nextSlide" })
             );
         }
     }]);

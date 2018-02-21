@@ -105,9 +105,10 @@ nav {
 .productsContainer {
   background: red; }
 
-.sliderContainer {
-  background: #c6fff6;
-  height: 700px;
-  background-size: cover; }
+.sliderContainer img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

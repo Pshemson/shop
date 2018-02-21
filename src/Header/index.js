@@ -35,13 +35,7 @@ class Header extends React.Component {
                         </li>
                     </ul>
                 </nav>
-                    <div className="rightMenu">
-                        <li>Hello</li>
-                        <li>Login</li>
-                        <img src="src/images/carticon.png"/>
-                        <span>My cart &or;</span>
-                        <span>$0.00</span>
-                    </div>
+
 
             </div>
         );

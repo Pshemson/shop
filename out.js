@@ -22340,7 +22340,7 @@ var Header = function (_React$Component) {
                         _react2.default.createElement(
                             "a",
                             { href: "#" },
-                            "Pages"
+                            "Basket"
                         )
                     )
                 )

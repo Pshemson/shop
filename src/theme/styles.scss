@@ -166,7 +166,7 @@ nav {
     width: 22px;
     height: 22px;
     border: 0;
-    border-top: 2px solid #101010;
+    border-top: 2px solid #fbefff;
     background: transparent;
     position: relative;
     transform: translateY(5px);
@@ -178,7 +178,7 @@ nav {
     top: -3px;
     left: 0;
     width: 100%;
-    border-top: 2px solid #101010;
+    border-top: 2px solid #fbefff;
     transform: translateY(10px);
   }
 
@@ -192,8 +192,20 @@ nav {
     padding: 10px;
     margin: 5px;
     cursor: pointer;
-
-
+    color: #FFFFFF;
+    transition: 0.4s all;
+    background: #FFFFFF;
+    &:hover {
+      background: #86BC42;
+      color: #86BC42;
+      border: 1px solid #86BC42;
+      a {
+        color: #fbefff;
+      }
+    }
+  }
+  span:first-child {
+    background-color: #86BC42;
   }
   @include small {
     display: none;

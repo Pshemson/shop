@@ -35,7 +35,12 @@ class Header extends React.Component {
                         </li>
                     </ul>
                 </nav>
-
+                <div className="mobileMenu">
+                    <span><button className="hamburger"></button></span>
+                    <span><a href="#">Search</a></span>
+                    <span><a href="#">Profile</a></span>
+                    <span><a href="#">Basket</a></span>
+                </div>
 
             </div>
         );

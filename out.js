@@ -22307,6 +22307,42 @@ var Header = function (_React$Component) {
                             )
                         )
                     )
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { className: "mobileMenu" },
+                    _react2.default.createElement(
+                        "span",
+                        null,
+                        _react2.default.createElement("button", { className: "hamburger" })
+                    ),
+                    _react2.default.createElement(
+                        "span",
+                        null,
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Search"
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "span",
+                        null,
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Profile"
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "span",
+                        null,
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Pages"
+                        )
+                    )
                 )
             );
         }

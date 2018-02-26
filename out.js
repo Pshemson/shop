@@ -22423,14 +22423,22 @@ var Slider = function (_React$Component) {
                     "div",
                     { className: "sliderBtn" },
                     _react2.default.createElement(
-                        "li",
+                        "span",
                         null,
-                        "GET IT NOW"
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "GET IT NOW"
+                        )
                     ),
                     _react2.default.createElement(
-                        "li",
+                        "span",
                         null,
-                        "LEARN MORE"
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "LEARN MORE"
+                        )
                     )
                 ),
                 _react2.default.createElement("span", { className: "prevSlide" }),

@@ -244,23 +244,34 @@ nav {
   }
   .sliderBtn {
     position: absolute;
-    bottom: 40%;
-    li {
+    bottom: 42%;
+    span {
       border: 1px solid #86BC42;
       border-radius: 5px;
-      display: inline-block;
-      color: #FFFFFF;
       background-color: #86BC42;
       padding: 11px;
       font-weight: bold;
       font-size: 15px;
       margin-left: 5px;
+      cursor: pointer;
+      transition: 0.4s all;
+      a {
+        color: #FFFFFF;
+      }
+      &:hover {
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        transition: 0.4s all;
+        a {
+          font-weight: bold;
+          font-size: 15px;
+          color: #86BC42;
+          transition: 0.4s all;
+        }
+      }
     }
   }
 }
-
-
-
 
 
 

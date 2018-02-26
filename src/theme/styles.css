@@ -176,17 +176,28 @@ nav {
     margin: 0; }
 .sliderContainer .sliderBtn {
   position: absolute;
-  bottom: 40%; }
-  .sliderContainer .sliderBtn li {
+  bottom: 42%; }
+  .sliderContainer .sliderBtn span {
     border: 1px solid #86BC42;
     border-radius: 5px;
-    display: inline-block;
-    color: #FFFFFF;
     background-color: #86BC42;
     padding: 11px;
     font-weight: bold;
     font-size: 15px;
-    margin-left: 5px; }
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.4s all; }
+    .sliderContainer .sliderBtn span a {
+      color: #FFFFFF; }
+    .sliderContainer .sliderBtn span:hover {
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      transition: 0.4s all; }
+      .sliderContainer .sliderBtn span:hover a {
+        font-weight: bold;
+        font-size: 15px;
+        color: #86BC42;
+        transition: 0.4s all; }
 
 .productsContainer {
   background: red; }

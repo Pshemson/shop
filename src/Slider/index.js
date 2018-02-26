@@ -10,8 +10,8 @@ class Slider extends React.Component {
                 </div>
                 <img src="src/images/slider-31.jpg"/>
                 <div className="sliderBtn">
-                    <li>GET IT NOW</li>
-                    <li>LEARN MORE</li>
+                    <span><a href="#">GET IT NOW</a></span>
+                    <span><a href="#">LEARN MORE</a></span>
                 </div>
                 <span className="prevSlide"></span>
                 <span className="nextSlide"></span>

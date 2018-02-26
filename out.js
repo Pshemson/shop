@@ -22393,8 +22393,46 @@ var Slider = function (_React$Component) {
             return _react2.default.createElement(
                 "div",
                 { className: "sliderContainer" },
-                _react2.default.createElement("h2", null),
+                _react2.default.createElement(
+                    "div",
+                    { className: "sliderText" },
+                    _react2.default.createElement(
+                        "h2",
+                        null,
+                        "True ",
+                        _react2.default.createElement(
+                            "strong",
+                            null,
+                            "passionate"
+                        ),
+                        " from our ",
+                        _react2.default.createElement(
+                            "strong",
+                            null,
+                            "farmers"
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "p",
+                        null,
+                        "Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna."
+                    )
+                ),
                 _react2.default.createElement("img", { src: "src/images/slider-31.jpg" }),
+                _react2.default.createElement(
+                    "div",
+                    { className: "sliderBtn" },
+                    _react2.default.createElement(
+                        "li",
+                        null,
+                        "GET IT NOW"
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        null,
+                        "LEARN MORE"
+                    )
+                ),
                 _react2.default.createElement("span", { className: "prevSlide" }),
                 _react2.default.createElement("span", { className: "nextSlide" })
             );

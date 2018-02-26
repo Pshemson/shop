@@ -213,6 +213,54 @@ nav {
 }
 
 
+//Slider
+
+.sliderContainer {
+  @include big {
+    display: none;
+  }
+  img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+  }
+  .sliderText {
+    position: absolute;
+    z-index: 1;
+    top: 37%;
+    p {
+      font-size: 14px;
+      color: #FFFFFF;
+      text-shadow: 3px 1px 9px #000;
+    }
+    h2 {
+      font-size: 44px;
+      color: #FFFFFF;
+      margin: 0;
+    }
+  }
+  .sliderBtn {
+    position: absolute;
+    bottom: 40%;
+    li {
+      border: 1px solid #86BC42;
+      border-radius: 5px;
+      display: inline-block;
+      color: #FFFFFF;
+      background-color: #86BC42;
+      padding: 11px;
+      font-weight: bold;
+      font-size: 15px;
+      margin-left: 5px;
+    }
+  }
+}
+
+
+
 
 
 
@@ -220,18 +268,4 @@ nav {
 
 .productsContainer {
   background:red;
-}
-
-
-//Slider
-.sliderContainer {
-  img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    @include big {
-      display: none;
-    }
-  }
 }

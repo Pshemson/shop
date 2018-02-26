@@ -165,7 +165,8 @@ nav {
 .sliderContainer .sliderText {
   position: absolute;
   z-index: 1;
-  top: 37%; }
+  top: 37%;
+  left: 4%; }
   .sliderContainer .sliderText p {
     font-size: 14px;
     color: #FFFFFF;
@@ -176,7 +177,8 @@ nav {
     margin: 0; }
 .sliderContainer .sliderBtn {
   position: absolute;
-  bottom: 42%; }
+  bottom: 42%;
+  left: 4%; }
   .sliderContainer .sliderBtn span {
     border: 1px solid #86BC42;
     border-radius: 5px;

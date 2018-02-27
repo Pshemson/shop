@@ -101,8 +101,12 @@ nav {
     color: #86BC42;
   }
   @include big {
-    font-size: 21px;
+    display: none;
   }
+}
+
+.mobileLogo {
+  float: left;
 }
 
 .searchContainer {
@@ -307,7 +311,7 @@ nav {
   text-align: center;
   li {
     display: inline-block;
-    border: 1px solid red;
+    border: 1px solid #d1d1d1;
     border-radius: 5px;
     text-align: left;
     padding: 10px;

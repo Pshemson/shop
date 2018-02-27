@@ -4,8 +4,8 @@ class Header extends React.Component {
     render() {
         return (
             <div className="container headerContainer">
+                <a className="mobileLogo" href="#"><img src="src/images/favicon.png"/></a>
                 <h1><a className="logo" href="#"><span>Green</span>Mart</a></h1>
-
                 <div className="searchContainer">
                     <input placeholder="I'm searching for..."/>
                     <span>SEARCH</span>
@@ -37,7 +37,7 @@ class Header extends React.Component {
                 </nav>
                 <div className="mobileMenu">
                     <span><button className="hamburger"></button></span>
-                    <span><a href="#">Search</a></span>
+                    <span><a href="#" ><img src="src/images/glass1.png"/></a></span>
                     <span><a href="#">Profile</a></span>
                     <span><a href="#">Basket</a></span>
                 </div>

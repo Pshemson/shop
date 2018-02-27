@@ -66,7 +66,10 @@ nav {
     color: #86BC42; }
   @media (max-width: 768px) {
     .logo {
-      font-size: 21px; } }
+      display: none; } }
+
+.mobileLogo {
+  float: left; }
 
 .searchContainer {
   float: left;
@@ -226,7 +229,7 @@ nav {
   text-align: center; }
   .featureBoxes li {
     display: inline-block;
-    border: 1px solid red;
+    border: 1px solid #d1d1d1;
     border-radius: 5px;
     text-align: left;
     padding: 10px; }

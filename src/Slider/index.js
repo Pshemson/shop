@@ -13,8 +13,10 @@ class Slider extends React.Component {
                     <span><a href="#">GET IT NOW</a></span>
                     <span><a href="#">LEARN MORE</a></span>
                 </div>
-                <span className="prevSlide"></span>
-                <span className="nextSlide"></span>
+                <div className="sliderArrows">
+                    <span className="arrows prevSlide"></span>
+                    <span className="arrows nextSlide"></span>
+                </div>
             </div>
         );
     }

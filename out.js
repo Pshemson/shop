@@ -22441,8 +22441,12 @@ var Slider = function (_React$Component) {
                         )
                     )
                 ),
-                _react2.default.createElement("span", { className: "prevSlide" }),
-                _react2.default.createElement("span", { className: "nextSlide" })
+                _react2.default.createElement(
+                    "div",
+                    { className: "sliderArrows" },
+                    _react2.default.createElement("span", { className: "arrows prevSlide" }),
+                    _react2.default.createElement("span", { className: "arrows nextSlide" })
+                )
             );
         }
     }]);

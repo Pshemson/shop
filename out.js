@@ -22446,6 +22446,59 @@ var Slider = function (_React$Component) {
                     { className: "sliderArrows" },
                     _react2.default.createElement("span", { className: "arrows prevSlide" }),
                     _react2.default.createElement("span", { className: "arrows nextSlide" })
+                ),
+                _react2.default.createElement(
+                    "ul",
+                    { className: "container featureBoxes" },
+                    _react2.default.createElement(
+                        "li",
+                        null,
+                        _react2.default.createElement(
+                            "div",
+                            null,
+                            "PUPA"
+                        ),
+                        _react2.default.createElement(
+                            "h3",
+                            null,
+                            "We drive fast & ship faster"
+                        ),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            "Aliquam quis ipsum id eros ultricies more"
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        null,
+                        _react2.default.createElement("div", null),
+                        _react2.default.createElement(
+                            "h3",
+                            null,
+                            "We save your more money"
+                        ),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            "Aliquam quis ipsum id eros ultricies more"
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        null,
+                        _react2.default.createElement("div", null),
+                        _react2.default.createElement(
+                            "h3",
+                            null,
+                            "Daily discount coupons"
+                        ),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            "Aliquam quis ipsum id eros ultricies more"
+                        )
+                    )
                 )
             );
         }

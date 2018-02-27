@@ -202,7 +202,8 @@ nav {
         transition: 0.4s all; }
 .sliderContainer .sliderArrows {
   position: absolute;
-  top: 45%; }
+  top: 45%;
+  width: 100%; }
   .sliderContainer .sliderArrows .arrows {
     width: 33px;
     height: 33px;
@@ -215,10 +216,25 @@ nav {
     transform: rotate(45deg);
     left: 8px; }
   .sliderContainer .sliderArrows .nextSlide {
-    border-bottom: 222px solid;
-    border-left: 222px solid;
+    border-bottom: 6px solid;
+    border-left: 6px solid;
     transform: rotate(-135deg);
     right: 8px; }
+
+.featureBoxes {
+  padding: 0;
+  text-align: center; }
+  .featureBoxes li {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px; }
+    .featureBoxes li h3 {
+      font-weight: bold;
+      font-size: 13px; }
+    .featureBoxes li p {
+      font-size: 13px; }
 
 .productsContainer {
   background: red; }

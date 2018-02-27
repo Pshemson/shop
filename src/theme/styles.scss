@@ -276,6 +276,7 @@ nav {
   .sliderArrows {
     position: absolute;
     top: 45%;
+    width: 100%;
     .arrows {
       width: 33px;
       height: 33px;
@@ -292,8 +293,8 @@ nav {
     }
 
     .nextSlide {
-      border-bottom: 222px solid;
-      border-left: 222px solid;
+      border-bottom: 6px solid;
+      border-left: 6px solid;
       transform: rotate(-135deg);
       right: 8px;
 
@@ -301,7 +302,25 @@ nav {
   }
 }
 
+.featureBoxes {
+  padding: 0;
+  text-align: center;
+  li {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    h3 {
+      font-weight: bold;
+      font-size: 13px;
+    }
+    p {
+      font-size: 13px;
+    }
 
+  }
+}
 
 
 

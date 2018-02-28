@@ -250,7 +250,11 @@ h1 {
       color: #FFFFFF;
       margin: 0;
     }
+    @media (max-width: 1100px) {
+      top: 26%;
+    }
   }
+
   .sliderBtn {
     position: absolute;
     bottom: 42%;
@@ -279,8 +283,16 @@ h1 {
           transition: 0.4s all;
         }
       }
+      @media (max-width: 1100px) {
+        padding: 6px;
+      }
+    }
+    @media (max-width: 1100px) {
+      bottom: 53%;
     }
   }
+
+
   .sliderArrows {
     position: absolute;
     top: 45%;
@@ -291,8 +303,7 @@ h1 {
       position: absolute;
       margin-top: -31px;
       color: #2bff12;
-
-
+      cursor: pointer;
     }
     .prevSlide {
       border-bottom: 6px solid;
@@ -308,8 +319,10 @@ h1 {
       right: 8px;
 
     }
+    @media (max-width: 1100px) {
+      top: 39%;
+    }
   }
-
 }
 
 .featureBoxes {

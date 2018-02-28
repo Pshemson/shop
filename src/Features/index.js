@@ -6,8 +6,8 @@ class Features extends React.Component {
             <div>
                 <ul className="container featureBoxes">
                     <li>
-                        <span><img src="src/images/glass1.png"/></span>
-                        <div>
+                        <span><img src="src/images/delivery-truck.png"/></span>
+                        <div className="boxText">
                         <h3>
                             We drive fast & ship faster
                         </h3>
@@ -17,22 +17,26 @@ class Features extends React.Component {
                         </div>
                     </li>
                     <li>
-                        <div></div>
+                        <span><img src="src/images/rich.png"/></span>
+                        <div className="boxText">
                         <h3>
                             We save your more money
                         </h3>
                         <p>
                             Aliquam quis ipsum id eros ultricies more
                         </p>
+                        </div>
                     </li>
                     <li>
-                        <div></div>
+                        <span><img src="src/images/discount.png"/></span>
+                        <div className="boxText">
                         <h3>
                             Daily discount coupons
                         </h3>
                         <p>
                             Aliquam quis ipsum id eros ultricies more
                         </p>
+                        </div>
                     </li>
                 </ul>
             </div>

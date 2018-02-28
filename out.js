@@ -22515,11 +22515,11 @@ var Features = function (_React$Component) {
                         _react2.default.createElement(
                             "span",
                             null,
-                            _react2.default.createElement("img", { src: "src/images/glass1.png" })
+                            _react2.default.createElement("img", { src: "src/images/delivery-truck.png" })
                         ),
                         _react2.default.createElement(
                             "div",
-                            null,
+                            { className: "boxText" },
                             _react2.default.createElement(
                                 "h3",
                                 null,
@@ -22535,31 +22535,47 @@ var Features = function (_React$Component) {
                     _react2.default.createElement(
                         "li",
                         null,
-                        _react2.default.createElement("div", null),
                         _react2.default.createElement(
-                            "h3",
+                            "span",
                             null,
-                            "We save your more money"
+                            _react2.default.createElement("img", { src: "src/images/rich.png" })
                         ),
                         _react2.default.createElement(
-                            "p",
-                            null,
-                            "Aliquam quis ipsum id eros ultricies more"
+                            "div",
+                            { className: "boxText" },
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "We save your more money"
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "Aliquam quis ipsum id eros ultricies more"
+                            )
                         )
                     ),
                     _react2.default.createElement(
                         "li",
                         null,
-                        _react2.default.createElement("div", null),
                         _react2.default.createElement(
-                            "h3",
+                            "span",
                             null,
-                            "Daily discount coupons"
+                            _react2.default.createElement("img", { src: "src/images/discount.png" })
                         ),
                         _react2.default.createElement(
-                            "p",
-                            null,
-                            "Aliquam quis ipsum id eros ultricies more"
+                            "div",
+                            { className: "boxText" },
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Daily discount coupons"
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "Aliquam quis ipsum id eros ultricies more"
+                            )
                         )
                     )
                 )

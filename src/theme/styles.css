@@ -229,7 +229,7 @@ h1 {
     height: 33px;
     position: absolute;
     margin-top: -31px;
-    color: #2bff12;
+    color: #86BC42;
     cursor: pointer; }
   .sliderContainer .sliderArrows .prevSlide {
     border-bottom: 6px solid;
@@ -260,6 +260,11 @@ h1 {
       font-size: 13px; }
     .featureBoxes li p {
       font-size: 13px; }
+    .featureBoxes li span {
+      margin-right: 14px; }
+
+.boxText {
+  display: inline-block; }
 
 .productsContainer {
   background: red; }

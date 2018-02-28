@@ -308,7 +308,7 @@ h1 {
       height: 33px;
       position: absolute;
       margin-top: -31px;
-      color: #2bff12;
+      color: #86BC42;
       cursor: pointer;
     }
     .prevSlide {
@@ -350,11 +350,16 @@ h1 {
     p {
       font-size: 13px;
     }
+    span {
+      margin-right: 14px;
+    }
 
   }
 }
 
-
+.boxText {
+  display: inline-block;
+}
 
 
 //Products

@@ -224,6 +224,7 @@ h1 {
 //Slider
 
 .sliderContainer {
+  position: relative;
   @include big {
     display: none;
   }
@@ -232,7 +233,7 @@ h1 {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    position: relative;
+    //position: relative;
 
   }
   .sliderText {
@@ -250,17 +251,11 @@ h1 {
       color: #FFFFFF;
       margin: 0;
     }
-    @media (max-width: 1400px) {
-      top: 30%;
-    }
-    @media (max-width: 1100px) {
-      top: 26%;
-    }
   }
 
   .sliderBtn {
     position: absolute;
-    bottom: 42%;
+    bottom: 30%;
     left: 4%;
     span {
       border: 1px solid #86BC42;
@@ -286,22 +281,19 @@ h1 {
           transition: 0.4s all;
         }
       }
-      @media (max-width: 1100px) {
+      @media (max-width: 1024px) {
         padding: 6px;
       }
     }
-    @media (max-width: 1400px) {
-      bottom: 49%;
-    }
-    @media (max-width: 1100px) {
-      bottom: 55%;
+    @media (max-width: 1024px) {
+      bottom: 20%;
     }
   }
 
 
   .sliderArrows {
     position: absolute;
-    top: 45%;
+    top: 55%;
     width: 100%;
     .arrows {
       width: 33px;
@@ -324,9 +316,6 @@ h1 {
       transform: rotate(-135deg);
       right: 8px;
 
-    }
-    @media (max-width: 1100px) {
-      top: 39%;
     }
   }
 }

@@ -38,8 +38,8 @@ class Header extends React.Component {
                 <div className="mobileMenu">
                     <span><button className="hamburger"></button></span>
                     <span><a href="#" ><img src="src/images/glass1.png"/></a></span>
-                    <span><a href="#">Profile</a></span>
-                    <span><a href="#">Basket</a></span>
+                    <span><a href="#"><img src="src/images/avatar.png"/></a></span>
+                    <span><a href="#"><img src="src/images/cart.png"/></a></span>
                 </div>
 
             </div>

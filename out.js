@@ -22341,7 +22341,7 @@ var Header = function (_React$Component) {
                         _react2.default.createElement(
                             "a",
                             { href: "#" },
-                            "Profile"
+                            _react2.default.createElement("img", { src: "src/images/avatar.png" })
                         )
                     ),
                     _react2.default.createElement(
@@ -22350,7 +22350,7 @@ var Header = function (_React$Component) {
                         _react2.default.createElement(
                             "a",
                             { href: "#" },
-                            "Basket"
+                            _react2.default.createElement("img", { src: "src/images/cart.png" })
                         )
                     )
                 )

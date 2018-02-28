@@ -27,8 +27,7 @@ a {
 
 .headerContainer {
   line-height: 44px;
-  background: #FFFFFF;
-  height: 70px; }
+  background: #FFFFFF; }
 
 nav {
   float: left; }
@@ -58,8 +57,11 @@ nav {
     nav {
       display: none; } }
 
-.logo {
+h1 {
   float: left;
+  margin: 0; }
+
+.logo {
   font-weight: bold;
   font-size: 26px; }
   .logo span {
@@ -139,7 +141,7 @@ nav {
   .mobileMenu span {
     border: 1px solid #d0d0d0;
     padding: 10px;
-    margin: 5px;
+    margin-left: 5px;
     cursor: pointer;
     color: #FFFFFF;
     transition: 0.4s all;

@@ -53,7 +53,7 @@ nav {
         font-size: 14px;
         color: #FFFFFF;
         transition: 0.4s all; }
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     nav {
       display: none; } }
 
@@ -66,7 +66,7 @@ h1 {
   font-size: 26px; }
   .logo span {
     color: #86BC42; }
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .logo {
       display: none; } }
 
@@ -103,7 +103,7 @@ h1 {
     border-radius: 5px;
     border: 1px solid #e6e6e6;
     line-height: 1.5; }
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .searchContainer {
       display: none; } }
 
@@ -154,13 +154,13 @@ h1 {
         color: #fbefff; }
   .mobileMenu span:first-child {
     background-color: #86BC42; }
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     .mobileMenu {
       display: none; } }
 
 .sliderContainer {
   position: relative; }
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .sliderContainer {
       display: none; } }
   .sliderContainer img {

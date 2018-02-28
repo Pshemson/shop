@@ -238,7 +238,7 @@ h1 {
   .sliderText {
     position: absolute;
     z-index: 1;
-    top: 37%;
+    top: 35%;
     left: 4%;
     p {
       font-size: 14px;
@@ -249,6 +249,9 @@ h1 {
       font-size: 44px;
       color: #FFFFFF;
       margin: 0;
+    }
+    @media (max-width: 1400px) {
+      top: 30%;
     }
     @media (max-width: 1100px) {
       top: 26%;
@@ -287,8 +290,11 @@ h1 {
         padding: 6px;
       }
     }
+    @media (max-width: 1400px) {
+      bottom: 49%;
+    }
     @media (max-width: 1100px) {
-      bottom: 53%;
+      bottom: 55%;
     }
   }
 
@@ -325,9 +331,12 @@ h1 {
   }
 }
 
+//Boxes features under slider
+
 .featureBoxes {
   padding: 0;
   text-align: center;
+  position: relative;
   li {
     display: inline-block;
     border: 1px solid #d1d1d1;

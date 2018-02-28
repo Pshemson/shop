@@ -22512,16 +22512,24 @@ var Features = function (_React$Component) {
                     _react2.default.createElement(
                         "li",
                         null,
-                        _react2.default.createElement("div", null),
                         _react2.default.createElement(
-                            "h3",
+                            "span",
                             null,
-                            "We drive fast & ship faster"
+                            _react2.default.createElement("img", { src: "src/images/glass1.png" })
                         ),
                         _react2.default.createElement(
-                            "p",
+                            "div",
                             null,
-                            "Aliquam quis ipsum id eros ultricies more"
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "We drive fast & ship faster"
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "Aliquam quis ipsum id eros ultricies more"
+                            )
                         )
                     ),
                     _react2.default.createElement(

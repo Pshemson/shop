@@ -170,7 +170,7 @@ h1 {
 .sliderContainer .sliderText {
   position: absolute;
   z-index: 1;
-  top: 37%;
+  top: 35%;
   left: 4%; }
   .sliderContainer .sliderText p {
     font-size: 14px;
@@ -180,6 +180,9 @@ h1 {
     font-size: 44px;
     color: #FFFFFF;
     margin: 0; }
+  @media (max-width: 1400px) {
+    .sliderContainer .sliderText {
+      top: 30%; } }
   @media (max-width: 1100px) {
     .sliderContainer .sliderText {
       top: 26%; } }
@@ -211,9 +214,12 @@ h1 {
     @media (max-width: 1100px) {
       .sliderContainer .sliderBtn span {
         padding: 6px; } }
+  @media (max-width: 1400px) {
+    .sliderContainer .sliderBtn {
+      bottom: 49%; } }
   @media (max-width: 1100px) {
     .sliderContainer .sliderBtn {
-      bottom: 53%; } }
+      bottom: 55%; } }
 .sliderContainer .sliderArrows {
   position: absolute;
   top: 45%;
@@ -241,7 +247,8 @@ h1 {
 
 .featureBoxes {
   padding: 0;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .featureBoxes li {
     display: inline-block;
     border: 1px solid #d1d1d1;

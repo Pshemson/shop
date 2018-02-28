@@ -6,13 +6,15 @@ class Features extends React.Component {
             <div>
                 <ul className="container featureBoxes">
                     <li>
-                        <div></div>
+                        <span><img src="src/images/glass1.png"/></span>
+                        <div>
                         <h3>
                             We drive fast & ship faster
                         </h3>
                         <p>
                             Aliquam quis ipsum id eros ultricies more
                         </p>
+                        </div>
                     </li>
                     <li>
                         <div></div>

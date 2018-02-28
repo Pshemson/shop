@@ -171,7 +171,7 @@ h1 {
   .sliderContainer .sliderText {
     position: absolute;
     z-index: 1;
-    top: 35%;
+    top: 47%;
     left: 4%; }
     .sliderContainer .sliderText p {
       font-size: 14px;
@@ -183,7 +183,7 @@ h1 {
       margin: 0; }
   .sliderContainer .sliderBtn {
     position: absolute;
-    bottom: 30%;
+    top: 72%;
     left: 4%; }
     .sliderContainer .sliderBtn span {
       border: 1px solid #86BC42;
@@ -206,12 +206,12 @@ h1 {
           font-size: 15px;
           color: #86BC42;
           transition: 0.4s all; }
-      @media (max-width: 1024px) {
+      @media (max-width: 1100px) {
         .sliderContainer .sliderBtn span {
           padding: 6px; } }
-    @media (max-width: 1024px) {
+    @media (max-width: 1100px) {
       .sliderContainer .sliderBtn {
-        bottom: 20%; } }
+        top: 79%; } }
   .sliderContainer .sliderArrows {
     position: absolute;
     top: 55%;

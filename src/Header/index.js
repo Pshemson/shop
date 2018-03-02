@@ -1,13 +1,22 @@
 import React from 'react';
 
 class Header extends React.Component {
+
+    // Lifecycle w ktorym zaladowany jest
+    componentDidMount() {
+
+    }
+
     render() {
+
         return (
             <div className="container headerContainer">
-                <a className="mobileLogo" href="#"><img src="src/images/favicon.png"/></a>
-                <h1><a className="logo" href="#"><span>Green</span>Mart</a></h1>
+                <a className="mobileLogo" href="#">
+                    <img src="src/images/favicon.png"/>
+                    <h1><span>Green</span>Mart</h1>
+                </a>
                 <div className="searchContainer">
-                    <input placeholder="I'm searching for..."/>
+                    <input placeholder="Search..."/>
                     <span>SEARCH</span>
                 </div>
                 <nav>
@@ -36,7 +45,7 @@ class Header extends React.Component {
                     </ul>
                 </nav>
                 <div className="mobileMenu">
-                    <span><button className="hamburger"></button></span>
+                    <span><button className="hamburger"/></span>
                     <span><a href="#" ><img src="src/images/glass1.png"/></a></span>
                     <span><a href="#"><img src="src/images/avatar.png"/></a></span>
                     <span><a href="#"><img src="src/images/cart.png"/></a></span>

@@ -22213,22 +22213,25 @@ var Header = function (_React$Component) {
     }
 
     _createClass(Header, [{
+        key: "componentDidMount",
+
+
+        // Lifecycle w ktorym zaladowany jest
+        value: function componentDidMount() {}
+    }, {
         key: "render",
         value: function render() {
+
             return _react2.default.createElement(
                 "div",
                 { className: "container headerContainer" },
                 _react2.default.createElement(
                     "a",
                     { className: "mobileLogo", href: "#" },
-                    _react2.default.createElement("img", { src: "src/images/favicon.png" })
-                ),
-                _react2.default.createElement(
-                    "h1",
-                    null,
+                    _react2.default.createElement("img", { src: "src/images/favicon.png" }),
                     _react2.default.createElement(
-                        "a",
-                        { className: "logo", href: "#" },
+                        "h1",
+                        null,
                         _react2.default.createElement(
                             "span",
                             null,
@@ -22240,7 +22243,7 @@ var Header = function (_React$Component) {
                 _react2.default.createElement(
                     "div",
                     { className: "searchContainer" },
-                    _react2.default.createElement("input", { placeholder: "I'm searching for..." }),
+                    _react2.default.createElement("input", { placeholder: "Search..." }),
                     _react2.default.createElement(
                         "span",
                         null,
@@ -22504,7 +22507,7 @@ var Features = function (_React$Component) {
         key: "render",
         value: function render() {
             return _react2.default.createElement(
-                "div",
+                "section",
                 null,
                 _react2.default.createElement(
                     "ul",

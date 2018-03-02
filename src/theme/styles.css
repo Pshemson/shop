@@ -159,14 +159,22 @@ h1 {
       display: none; } }
 
 .sliderContainer {
-  position: relative; }
+  position: relative;
+  height: 315px;
+  overflow: hidden; }
   .sliderContainer img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
     height: 100%;
-    min-width: 500px;
-    min-height: 300px; }
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    @media (min-width: 960px) {
+      .sliderContainer img {
+        width: 100%;
+        height: auto; } }
   .sliderContainer .sliderText {
     position: absolute;
     z-index: 1;
@@ -245,25 +253,44 @@ h1 {
   text-align: center;
   position: relative; }
   .featureBoxes li {
+    width: 100%;
     display: inline-block;
     border: 1px solid #d1d1d1;
     border-radius: 5px;
     text-align: left;
     padding: 10px;
-    margin-left: 5px; }
+    vertical-align: top; }
+    @media (min-width: 768px) {
+      .featureBoxes li {
+        width: calc(33% - 5px);
+        margin-left: 5px; } }
+    @media (min-width: 960px) {
+      .featureBoxes li {
+        background: green; } }
+    @media (min-width: 1200px) {
+      .featureBoxes li {
+        background: red; } }
     .featureBoxes li h3 {
       font-weight: bold;
       font-size: 13px; }
     .featureBoxes li p {
       font-size: 13px; }
     .featureBoxes li span {
-      margin-right: 14px; }
+      margin-right: 14px;
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      display: inline-block;
+      background: red;
+      text-align: center;
+      line-height: 70px; }
+      .featureBoxes li span img {
+        vertical-align: middle; }
 
 .boxText {
   display: inline-block; }
 
 .welcomeContainer {
-  height: 200px;
   text-align: center;
   position: relative; }
   .welcomeContainer h4 {
@@ -274,7 +301,6 @@ h1 {
     color: grey;
     font-weight: 300; }
   .welcomeContainer .signatureContainer {
-    float: right;
     text-align: right; }
     .welcomeContainer .signatureContainer span:first-child {
       font-weight: bold;

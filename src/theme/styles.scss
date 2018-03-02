@@ -1,6 +1,31 @@
 //Mixins
+//RWD:  Minimum widths to apply styles (mobile first)
+@mixin xsmall {
+  @media (min-width: 460px) {
+    @content;
+  }
+}
+
 @mixin small {
   @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: 960px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin xlarge {
+  @media (min-width: 1600px) {
     @content;
   }
 }
@@ -220,16 +245,21 @@ h1 {
 
 .sliderContainer {
   position: relative;
-
+  height: 315px;
+  overflow: hidden;
   img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
     height: 100%;
-    min-width: 500px;
-    min-height: 300px;
-
-
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    @include medium {
+      width: 100%;
+      height: auto;
+    }
   }
   .sliderText {
     position: absolute;
@@ -331,12 +361,23 @@ h1 {
   text-align: center;
   position: relative;
   li {
+    width: 100%;
     display: inline-block;
     border: 1px solid #d1d1d1;
     border-radius: 5px;
     text-align: left;
     padding: 10px;
-    margin-left: 5px;
+    vertical-align: top;
+    @include small {
+      width: calc(33% - 5px);
+      margin-left: 5px;
+    }
+    @include medium {
+      background: green;
+    }
+    @include large {
+     background: red;
+    }
     h3 {
       font-weight: bold;
       font-size: 13px;
@@ -346,6 +387,16 @@ h1 {
     }
     span {
       margin-right: 14px;
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      display: inline-block;
+      background: red;
+      text-align: center;
+      line-height: 70px;
+      img {
+        vertical-align: middle;
+      }
     }
 
   }
@@ -356,7 +407,6 @@ h1 {
 }
 
 .welcomeContainer {
-  height: 200px;
   text-align: center;
   position: relative;
   h4 {
@@ -369,17 +419,18 @@ h1 {
     font-weight: 300;
   }
   .signatureContainer {
-    float: right;
     text-align: right;
-    span:first-child {
-      font-weight: bold;
-      font-size: 14px;
-    }
-    span:nth-child(2) {
-      color: #bbb;
-      font-size: 13px;
-      display: block;
-      font-weight: bolder;
+    span {
+      &:first-child {
+        font-weight: bold;
+        font-size: 14px;
+      }
+      &:nth-child(2) {
+        color: #bbb;
+        font-size: 13px;
+        display: block;
+        font-weight: bolder;
+      }
     }
   }
 }

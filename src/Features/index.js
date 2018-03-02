@@ -3,7 +3,7 @@ import React from 'react';
 class Features extends React.Component {
     render() {
         return (
-            <div>
+            <section>
                 <ul className="container featureBoxes">
                     <li>
                         <span><img src="src/images/delivery-truck.png"/></span>
@@ -56,7 +56,7 @@ class Features extends React.Component {
                     </span>
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }

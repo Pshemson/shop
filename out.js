@@ -22578,6 +22578,45 @@ var Features = function (_React$Component) {
                             )
                         )
                     )
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { className: "container welcomeContainer" },
+                    _react2.default.createElement(
+                        "h4",
+                        null,
+                        "Welcome to ",
+                        _react2.default.createElement(
+                            "strong",
+                            null,
+                            "Green Mart"
+                        ),
+                        " organic store"
+                    ),
+                    _react2.default.createElement(
+                        "span",
+                        null,
+                        _react2.default.createElement("img", { src: "src/images/farmer.png" })
+                    ),
+                    _react2.default.createElement(
+                        "p",
+                        null,
+                        "Donec vulputate sit amet ex vel imperdiet. Sed iaculis urna commodo molestie aliquet. Etiam non lectus orci. In gravida libero non nibh dignissim, consequat porttitor lacus elementum. Nam sceleri sque, felis ut condimentum hendrerit, ex tellus luctus nis."
+                    ),
+                    _react2.default.createElement(
+                        "div",
+                        { className: "signatureContainer" },
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "Kerry Smith."
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "GreenMart\u2019s Founder/CEO"
+                        )
+                    )
                 )
             );
         }

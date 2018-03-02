@@ -17,7 +17,7 @@ html, body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  background: #FFFFFF;
+  background: #fff;
 
 }
 h1, h2, h3, h4, h5 {
@@ -229,6 +229,7 @@ h1 {
     min-width: 500px;
     min-height: 300px;
 
+
   }
   .sliderText {
     position: absolute;
@@ -335,6 +336,7 @@ h1 {
     border-radius: 5px;
     text-align: left;
     padding: 10px;
+    margin-left: 5px;
     h3 {
       font-weight: bold;
       font-size: 13px;
@@ -353,6 +355,34 @@ h1 {
   display: inline-block;
 }
 
+.welcomeContainer {
+  height: 200px;
+  text-align: center;
+  position: relative;
+  h4 {
+    text-space: 3px;
+    font-size: 21px;
+  }
+  p {
+    font-size: 14px;
+    color: grey;
+    font-weight: 300;
+  }
+  .signatureContainer {
+    float: right;
+    text-align: right;
+    span:first-child {
+      font-weight: bold;
+      font-size: 14px;
+    }
+    span:nth-child(2) {
+      color: #bbb;
+      font-size: 13px;
+      display: block;
+      font-weight: bolder;
+    }
+  }
+}
 
 //Products
 

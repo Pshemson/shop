@@ -6,7 +6,7 @@ html, body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  background: #FFFFFF; }
+  background: #fff; }
 
 h1, h2, h3, h4, h5 {
   font-weight: 300; }
@@ -249,7 +249,8 @@ h1 {
     border: 1px solid #d1d1d1;
     border-radius: 5px;
     text-align: left;
-    padding: 10px; }
+    padding: 10px;
+    margin-left: 5px; }
     .featureBoxes li h3 {
       font-weight: bold;
       font-size: 13px; }
@@ -260,6 +261,29 @@ h1 {
 
 .boxText {
   display: inline-block; }
+
+.welcomeContainer {
+  height: 200px;
+  text-align: center;
+  position: relative; }
+  .welcomeContainer h4 {
+    text-space: 3px;
+    font-size: 21px; }
+  .welcomeContainer p {
+    font-size: 14px;
+    color: grey;
+    font-weight: 300; }
+  .welcomeContainer .signatureContainer {
+    float: right;
+    text-align: right; }
+    .welcomeContainer .signatureContainer span:first-child {
+      font-weight: bold;
+      font-size: 14px; }
+    .welcomeContainer .signatureContainer span:nth-child(2) {
+      color: #bbb;
+      font-size: 13px;
+      display: block;
+      font-weight: bolder; }
 
 .productsContainer {
   background: red; }

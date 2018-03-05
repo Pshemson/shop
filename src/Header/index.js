@@ -45,7 +45,9 @@ class Header extends React.Component {
                     </ul>
                 </nav>
                 <div className="mobileMenu">
-                    <span><button className="hamburger"/></span>
+                    <nav className="navBar">
+                        <button className="mobileIcon"><span></span></button>
+                    </nav>
                     <a href="#" ><img className="glassBtn" src="src/images/glass1.png"/></a>
                     <a href="#"><img className="mobileBtn" src="src/images/avatar.png"/></a>
                     <a href="#"><img className="mobileBtn" src="src/images/cart.png"/></a>

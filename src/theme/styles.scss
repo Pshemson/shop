@@ -217,34 +217,76 @@ h1 {
 .mobileMenu {
   float: right;
 
-
-  .hamburger {
+  .navBar {
     @include small {
       display: none;
     }
-    width: 22px;
-    height: 22px;
-    border: 0;
-    border-top: 2px solid #fbefff;
-    background: transparent;
+    :before {
+      content: " ";
+      display: table;
+    }
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+
+  .mobileIcon {
+    display: inline-block;
+    color: #66b700;
+    background: none;
+    cursor: pointer;
     position: relative;
-    transform: translateY(5px);
+    z-index: 100;
+    border: 0;
+    padding: 26px;
+    transition: .5s ease-in-out;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    span {
+      display: block;
+      position: absolute;
+      height: 4px;
+      content: "";
+      width: 100%;
+      background: #19ff00;
+      border-radius: 9px;
+      opacity: 1;
+      left: 0;
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      transition: .25s ease-in-out;
+    }
   }
 
-  .hamburger::before, .hamburger::after {
-    content: '';
-    position: absolute;
-    top: -3px;
-    left: 0;
-    width: 100%;
-    border-top: 2px solid #fbefff;
-    transform: translateY(10px);
-  }
 
-  .hamburger::after {
-    transform: translateY(18px);
-
-  }
+  //.hamburger {
+  //  @include small {
+  //    display: none;
+  //  }
+  //  width: 22px;
+  //  height: 22px;
+  //  border: 0;
+  //  border-top: 2px solid #fbefff;
+  //  background: transparent;
+  //  position: relative;
+  //  transform: translateY(5px);
+  //}
+  //
+  //.hamburger::before, .hamburger::after {
+  //  content: '';
+  //  position: absolute;
+  //  top: -3px;
+  //  left: 0;
+  //  width: 100%;
+  //  border-top: 2px solid #fbefff;
+  //  transform: translateY(10px);
+  //}
+  //
+  //.hamburger::after {
+  //  transform: translateY(18px);
+  //
+  //}
 
   .mobileBtn {
     @include small {
@@ -290,22 +332,22 @@ h1 {
       }
     }
   }
-    border: 1px solid #d0d0d0;
-    padding: 10px;
-    margin-left: 5px;
-    cursor: pointer;
-    color: #FFFFFF;
-    transition: 0.4s all;
-    background: #FFFFFF;
-    &:hover {
-      background: #86BC42;
-      color: #86BC42;
-      border: 1px solid #86BC42;
-      a {
-        color: #fbefff;
-      }
+  border: 1px solid #d0d0d0;
+  padding: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  color: #FFFFFF;
+  transition: 0.4s all;
+  background: #FFFFFF;
+  &:hover {
+    background: #86BC42;
+    color: #86BC42;
+    border: 1px solid #86BC42;
+    a {
+      color: #fbefff;
     }
   }
+}
 
 
 
@@ -333,7 +375,8 @@ h1 {
     position: absolute;
     z-index: 1;
     top: 47%;
-    left: 4%;
+    left: 30px;
+    right: 30px;
     p {
       font-size: 14px;
       color: #FFFFFF;

@@ -146,27 +146,41 @@ h1 {
 
 .mobileMenu {
   float: right; }
-  .mobileMenu .hamburger {
-    width: 22px;
-    height: 22px;
-    border: 0;
-    border-top: 2px solid #fbefff;
-    background: transparent;
-    position: relative;
-    transform: translateY(5px); }
+  .mobileMenu .navBar {
+    padding: 0;
+    margin: 0;
+    border-radius: 0; }
     @media (min-width: 768px) {
-      .mobileMenu .hamburger {
+      .mobileMenu .navBar {
         display: none; } }
-  .mobileMenu .hamburger::before, .mobileMenu .hamburger::after {
-    content: '';
-    position: absolute;
-    top: -3px;
-    left: 0;
-    width: 100%;
-    border-top: 2px solid #fbefff;
-    transform: translateY(10px); }
-  .mobileMenu .hamburger::after {
-    transform: translateY(18px); }
+    .mobileMenu .navBar :before {
+      content: " ";
+      display: table; }
+  .mobileMenu .mobileIcon {
+    display: inline-block;
+    color: #66b700;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+    border: 0;
+    padding: 26px;
+    transition: .5s ease-in-out;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+    .mobileMenu .mobileIcon span {
+      display: block;
+      position: absolute;
+      height: 4px;
+      content: "";
+      width: 100%;
+      background: #19ff00;
+      border-radius: 9px;
+      opacity: 1;
+      left: 0;
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      transition: .25s ease-in-out; }
   .mobileMenu .mobileBtn {
     border: 1px solid #d0d0d0;
     padding: 10px;
@@ -240,7 +254,8 @@ h1 {
     position: absolute;
     z-index: 1;
     top: 47%;
-    left: 4%; }
+    left: 30px;
+    right: 30px; }
     .sliderContainer .sliderText p {
       font-size: 14px;
       color: #FFFFFF;

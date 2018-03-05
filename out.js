@@ -22325,9 +22325,13 @@ var Header = function (_React$Component) {
                     "div",
                     { className: "mobileMenu" },
                     _react2.default.createElement(
-                        "span",
-                        null,
-                        _react2.default.createElement("button", { className: "hamburger" })
+                        "nav",
+                        { className: "navBar" },
+                        _react2.default.createElement(
+                            "button",
+                            { className: "mobileIcon" },
+                            _react2.default.createElement("span", null)
+                        )
                     ),
                     _react2.default.createElement(
                         "a",

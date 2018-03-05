@@ -11,9 +11,9 @@ class Header extends React.Component {
 
         return (
             <div className="container headerContainer">
-                <a className="mobileLogo" href="#">
-                    <img src="src/images/favicon.png"/>
-                    <h1><span>Green</span>Mart</h1>
+                <a href="#">
+                    <img className="mobileLogo" src="src/images/favicon.png"/>
+                    <h1 className="logo"><span>Green</span>Mart</h1>
                 </a>
                 <div className="searchContainer">
                     <input placeholder="Search..."/>
@@ -46,9 +46,9 @@ class Header extends React.Component {
                 </nav>
                 <div className="mobileMenu">
                     <span><button className="hamburger"/></span>
-                    <span><a href="#" ><img src="src/images/glass1.png"/></a></span>
-                    <span><a href="#"><img src="src/images/avatar.png"/></a></span>
-                    <span><a href="#"><img src="src/images/cart.png"/></a></span>
+                    <a href="#" ><img className="glassBtn" src="src/images/glass1.png"/></a>
+                    <a href="#"><img className="mobileBtn" src="src/images/avatar.png"/></a>
+                    <a href="#"><img className="mobileBtn" src="src/images/cart.png"/></a>
                 </div>
 
             </div>

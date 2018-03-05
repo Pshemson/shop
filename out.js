@@ -22227,11 +22227,11 @@ var Header = function (_React$Component) {
                 { className: "container headerContainer" },
                 _react2.default.createElement(
                     "a",
-                    { className: "mobileLogo", href: "#" },
-                    _react2.default.createElement("img", { src: "src/images/favicon.png" }),
+                    { href: "#" },
+                    _react2.default.createElement("img", { className: "mobileLogo", src: "src/images/favicon.png" }),
                     _react2.default.createElement(
                         "h1",
-                        null,
+                        { className: "logo" },
                         _react2.default.createElement(
                             "span",
                             null,
@@ -22330,31 +22330,19 @@ var Header = function (_React$Component) {
                         _react2.default.createElement("button", { className: "hamburger" })
                     ),
                     _react2.default.createElement(
-                        "span",
-                        null,
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            _react2.default.createElement("img", { src: "src/images/glass1.png" })
-                        )
+                        "a",
+                        { href: "#" },
+                        _react2.default.createElement("img", { className: "glassBtn", src: "src/images/glass1.png" })
                     ),
                     _react2.default.createElement(
-                        "span",
-                        null,
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            _react2.default.createElement("img", { src: "src/images/avatar.png" })
-                        )
+                        "a",
+                        { href: "#" },
+                        _react2.default.createElement("img", { className: "mobileBtn", src: "src/images/avatar.png" })
                     ),
                     _react2.default.createElement(
-                        "span",
-                        null,
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            _react2.default.createElement("img", { src: "src/images/cart.png" })
-                        )
+                        "a",
+                        { href: "#" },
+                        _react2.default.createElement("img", { className: "mobileBtn", src: "src/images/cart.png" })
                     )
                 )
             );

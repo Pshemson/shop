@@ -78,36 +78,57 @@ a {
 }
 
 nav {
-  float: left;
-  ul {
-    margin: auto;
-  }
-  a {
-    font-weight: bold;
-    font-size: 14px;
-  }
-  li {
-    display: inline;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 12px 12px 12px;
-    border: 1px solid #FFFFFF;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    transition: 0.4s all;
-    &:hover {
-      background: #86BC42;
-      border: 1px solid #86BC42;
-      a {
-        font-weight: bold;
-        font-size: 14px;
-        color: #FFFFFF;
-        transition: 0.4s all;
+    float: left;
+    ul {
+      margin: auto;
+    }
+    a {
+      font-weight: bold;
+      font-size: 14px;
+    }
+    li {
+      display: none;
+      @include medium {
+      display: inline-block;
+      text-decoration: none;
+      cursor: pointer;
+      padding: 12px 12px 12px;
+      border: 1px solid #FFFFFF;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      transition: 0.4s all;
+      &:hover {
+        background: #86BC42;
+        border: 1px solid #86BC42;
+        a {
+          font-weight: bold;
+          font-size: 14px;
+          color: #FFFFFF;
+          transition: 0.4s all;
+        }
       }
     }
-  }
-  @media (max-width: 1024px) {
-    display: none;
+      @include small {
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 9px 9px 9px;
+        border: 1px solid #FFFFFF;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        transition: 0.4s all;
+        &:hover {
+          background: #86BC42;
+          border: 1px solid #86BC42;
+          a {
+            font-weight: bold;
+            font-size: 14px;
+            color: #FFFFFF;
+            transition: 0.4s all;
+          }
+        }
+      }
+
   }
 }
 
@@ -116,24 +137,35 @@ h1 {
   margin: 0;
 }
 .logo {
-  font-weight: bold;
-  font-size: 26px;
-  span {
-    color: #86BC42;
-  }
-  @media (max-width: 1024px) {
-    display: none;
+  display: none;
+  @include small {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 12px;
+    display: inline-block;
+    span {
+      color: #86BC42;
+    }
   }
 }
 
 .mobileLogo {
   float: left;
-
+  margin-top: 7px;
+  @include large {
+    margin-top: 12px;
+  }
 }
 
 .searchContainer {
-  float: left;
-  margin-left: 18px;
+  display: none;
+  @include large {
+    float: left;
+    margin-left: 18px;
+    margin-top: 12px;
+    display: inline-block;
+  }
+
   span {
     font-size: 13px;
     cursor: pointer;
@@ -153,7 +185,6 @@ h1 {
       background: #FFFFFF;
       color: #86BC42;
       border: 1px solid #86BC42;
-
     }
   }
   input {
@@ -164,9 +195,6 @@ h1 {
     border-radius: 5px;
     border: 1px solid #e6e6e6;
     line-height: 1.5;
-  }
-  @media (max-width: 1024px) {
-    display: none;
   }
 }
 
@@ -189,7 +217,11 @@ h1 {
 .mobileMenu {
   float: right;
 
+
   .hamburger {
+    @include small {
+      display: none;
+    }
     width: 22px;
     height: 22px;
     border: 0;
@@ -214,7 +246,10 @@ h1 {
 
   }
 
-  span {
+  .mobileBtn {
+    @include small {
+      display: none;
+    }
     border: 1px solid #d0d0d0;
     padding: 10px;
     margin-left: 5px;
@@ -231,14 +266,47 @@ h1 {
       }
     }
   }
-  span:first-child {
-    background-color: #86BC42;
-  }
+}
 
-  @media (min-width: 1024px) {
+.glassBtn {
+  @include large {
     display: none;
   }
-}
+  @include small {
+    border: 1px solid #d0d0d0;
+    padding: 6px;
+    margin-left: 5px;
+    margin-top: 6px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.4s all;
+    background: #FFFFFF;
+    &:hover {
+      background: #86BC42;
+      color: #86BC42;
+      border: 1px solid #86BC42;
+      a {
+        color: #fbefff;
+      }
+    }
+  }
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.4s all;
+    background: #FFFFFF;
+    &:hover {
+      background: #86BC42;
+      color: #86BC42;
+      border: 1px solid #86BC42;
+      a {
+        color: #fbefff;
+      }
+    }
+  }
+
 
 
 //Slider

@@ -363,7 +363,7 @@ h1 {
   }
   @include large {
     width: 100%;
-    height: 425px;
+    height: 500px;
   }
   @include xLarge {
     width: 100%;
@@ -485,9 +485,16 @@ h1 {
 //Boxes features under slider
 
 .featureBoxes {
-  padding: 0;
-  text-align: center;
-  position: relative;
+  display: none;
+  @include xsmall {
+    padding: 0;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    :hover img {
+      transform: translate(28px,0);
+    }
+  }
   li {
     width: 100%;
     display: inline-block;
@@ -496,15 +503,16 @@ h1 {
     text-align: left;
     padding: 10px;
     vertical-align: top;
+    background: #FFFFFF;
     @include small {
       width: calc(33% - 5px);
       margin-left: 5px;
     }
     @include medium {
-      background: green;
+      background: #FFFFFF;
     }
     @include large {
-     background: red;
+     background: #FFFFFF;
     }
     h3 {
       font-weight: bold;
@@ -512,18 +520,23 @@ h1 {
     }
     p {
       font-size: 13px;
+      color: #777;
     }
     span {
+      position: absolute;
       margin-right: 14px;
       height: 70px;
       width: 70px;
       border-radius: 50%;
       display: inline-block;
-      background: red;
+      background: #F9F9F9;
       text-align: center;
       line-height: 70px;
       img {
         vertical-align: middle;
+        margin-left: -54px;
+        transition: transform 0.5s ease-in-out;
+
       }
     }
 
@@ -532,7 +545,10 @@ h1 {
 
 .boxText {
   display: inline-block;
+  margin-left: 85px;
 }
+
+// Description and signature section
 
 .welcomeContainer {
   text-align: center;

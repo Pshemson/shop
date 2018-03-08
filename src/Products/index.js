@@ -39,8 +39,90 @@ class Products extends React.Component {
                 <h2>Products</h2>
                 <ul className="productsList">
                     <li className="singleProduct">
-                        <img src="#" />
-                        <h3>Product name 1</h3>
+                        <a href="#">
+                        <img src="src/images/product-eggs.jpg" />
+                        <h3>Eggs</h3>
+                        </a>
+                        <div>
+                            <span>99,00$</span>
+                            <span>Buy</span>
+                        </div>
+                    </li>
+                    <li className="singleProduct">
+                        <a href="#">
+                        <img src="src/images/product-milk.jpg" />
+                        <h3>Milk</h3>
+                        </a>
+                        <div>
+                            <span>99,00$</span>
+                            <span>Buy</span>
+                        </div>
+                    </li>
+                    <li className="singleProduct">
+                        <a href="#">
+                        <img src="src/images/product-fruits.jpg" />
+                        <h3>Fruits</h3>
+                        </a>
+                        <div>
+                            <span>99,00$</span>
+                            <span>Buy</span>
+                        </div>
+                    </li>
+                    <li className="singleProduct">
+                        <a href="#">
+                        <img src="src/images/product-fish.jpg" />
+                        <h3>Fish</h3>
+                        </a>
+                        <div>
+                            <span>99,00$</span>
+                            <span>Buy</span>
+                        </div>
+                    </li>
+                    <li className="singleProduct">
+                        <a href="#">
+                        <img src="src/images/product-vege.jpg" />
+                        <h3>Vegetables</h3>
+                        </a>
+                        <div>
+                            <span>99,00$</span>
+                            <span>Buy</span>
+                        </div>
+                    </li>
+                    <li className="singleProduct">
+                        <a href="#">
+                        <img src="src/images/product-eggs.jpg" />
+                        <h3>Eggs</h3>
+                        </a>
+                        <div>
+                            <span>99,00$</span>
+                            <span>Buy</span>
+                        </div>
+                    </li>
+                    <li className="singleProduct">
+                        <a href="#">
+                        <img src="src/images/product-fruits.jpg" />
+                        <h3>Fruits</h3>
+                        </a>
+                        <div>
+                            <span>99,00$</span>
+                            <span>Buy</span>
+                        </div>
+                    </li>
+                    <li className="singleProduct">
+                        <a href="#">
+                        <img src="src/images/product-milk.jpg" />
+                        <h3>Milk</h3>
+                        </a>
+                        <div>
+                            <span>99,00$</span>
+                            <span>Buy</span>
+                        </div>
+                    </li>
+                    <li className="singleProduct">
+                        <a href="#">
+                        <img src="src/images/product-vege.jpg" />
+                        <h3>Vegetables</h3>
+                        </a>
                         <div>
                             <span>99,00$</span>
                             <span>Buy</span>

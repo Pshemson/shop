@@ -22737,11 +22737,239 @@ var Products = function (_React$Component) {
                     _react2.default.createElement(
                         "li",
                         { className: "singleProduct" },
-                        _react2.default.createElement("img", { src: "#" }),
                         _react2.default.createElement(
-                            "h3",
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-eggs.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Eggs"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
                             null,
-                            "Product name 1"
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "99,00$"
+                            ),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "Buy"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-milk.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Milk"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            null,
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "99,00$"
+                            ),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "Buy"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-fruits.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Fruits"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            null,
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "99,00$"
+                            ),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "Buy"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-fish.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Fish"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            null,
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "99,00$"
+                            ),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "Buy"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-vege.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Vegetables"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            null,
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "99,00$"
+                            ),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "Buy"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-eggs.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Eggs"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            null,
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "99,00$"
+                            ),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "Buy"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-fruits.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Fruits"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            null,
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "99,00$"
+                            ),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "Buy"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-milk.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Milk"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            null,
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "99,00$"
+                            ),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "Buy"
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-vege.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Vegetables"
+                            )
                         ),
                         _react2.default.createElement(
                             "div",

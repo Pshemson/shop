@@ -428,17 +428,30 @@ h1 {
       font-size: 13px;
       display: block;
       font-weight: bolder; }
-
-.underDescription {
-  display: none; }
-  @media (min-width: 768px) {
-    .underDescription {
-      text-align: center;
-      display: inline-block; }
-      .underDescription img {
-        margin-left: 140px; } }
+  .welcomeContainer .underDescription {
+    display: none; }
+    @media (min-width: 768px) {
+      .welcomeContainer .underDescription {
+        display: inline-block; } }
 
 .productsContainer {
-  background: red; }
+  background: #697fd5; }
+  .productsContainer .tabList {
+    text-align: center; }
+    .productsContainer .tabList li {
+      display: inline-block;
+      cursor: pointer;
+      padding: 9px 9px 9px;
+      width: 116px; }
+    .productsContainer .tabList a {
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: black; }
+      .productsContainer .tabList a:hover {
+        color: #86BC42; }
+    .productsContainer .tabList img {
+      display: block;
+      margin: 0 auto; }
 
 /*# sourceMappingURL=styles.css.map */

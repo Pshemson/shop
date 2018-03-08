@@ -55,10 +55,11 @@ class Features extends React.Component {
                         GreenMart’s Founder/CEO
                     </span>
                     </div>
+                    <div className="container underDescription">
+                        <img src="src/images/herbalism.png"/>
+                    </div>
                 </div>
-                <div className="container underDescription">
-                    <img src="src/images/herbalism.png"/>
-                </div>
+
             </section>
         );
     }

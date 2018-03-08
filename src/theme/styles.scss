@@ -555,7 +555,6 @@ h1 {
         vertical-align: middle;
         margin-left: -54px;
         transition: transform 0.5s ease-in-out;
-
       }
     }
 
@@ -601,20 +600,39 @@ h1 {
       }
     }
   }
-}
-
-.underDescription {
-  display: none;
-  @include small {
-    text-align: center;
-    display: inline-block;
-    img {
-      margin-left: 140px;
+  .underDescription {
+    display: none;
+    @include small {
+      display: inline-block;
     }
   }
 }
+
+
 //Products
 
 .productsContainer {
-  background:red;
+  background: #697fd5;
+  .tabList {
+    text-align: center;
+    li {
+      display: inline-block;
+      cursor: pointer;
+      padding: 9px 9px 9px;
+      width: 116px;
+    }
+    a {
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: black;
+      &:hover {
+        color: #86BC42;
+      }
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
 }

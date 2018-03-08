@@ -4,6 +4,38 @@ class Products extends React.Component {
     render() {
         return (
             <div className="container productsContainer">
+                <ul className="tabList">
+                    <li>
+                        <a href="#">
+                            <img src="src/images/milk.png" />
+                            Milk & Cream
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="src/images/fried-egg.png" />
+                            Butter & Eggs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="src/images/fruits.png" />
+                            Fruits
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="src/images/carrot.png" />
+                            Vegetables
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="src/images/fish.png" />
+                            Ocean Foods
+                        </a>
+                    </li>
+                </ul>
                 <h2>Products</h2>
                 <ul className="productsList">
                     <li className="singleProduct">

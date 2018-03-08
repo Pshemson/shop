@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6b431d91-dee2-44e1-9287-e9c0df319366" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out.js" afterPath="$PROJECT_DIR$/out.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Features/index.js" afterPath="$PROJECT_DIR$/src/Features/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Products/index.js" afterPath="$PROJECT_DIR$/src/Products/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/styles.css" afterPath="$PROJECT_DIR$/src/theme/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/styles.css.map" afterPath="$PROJECT_DIR$/src/theme/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/styles.scss" afterPath="$PROJECT_DIR$/src/theme/styles.scss" />
@@ -37,42 +34,30 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/index.js">
+        <entry file="file://$PROJECT_DIR$/src/Features/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Header/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="76" />
+            <state relative-caret-position="397">
+              <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Products/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="504">
               <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/theme/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="614" column="0" lean-forward="false" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="633" column="37" lean-forward="false" selection-start-line="633" selection-start-column="37" selection-end-line="633" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -106,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/Header/index.js" />
         <option value="$PROJECT_DIR$/src/App/index.js" />
         <option value="$PROJECT_DIR$/src/Features/index.js" />
-        <option value="$PROJECT_DIR$/src/theme/styles.scss" />
         <option value="$PROJECT_DIR$/src/Products/index.js" />
+        <option value="$PROJECT_DIR$/src/theme/styles.scss" />
       </list>
     </option>
   </component>
@@ -414,12 +399,12 @@
       <workItem from="1520327483087" duration="4396000" />
       <workItem from="1520411175184" duration="4278000" />
       <workItem from="1520415476747" duration="1072000" />
-      <workItem from="1520499032088" duration="7295000" />
+      <workItem from="1520499032088" duration="10352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105810000" />
+    <option name="totallyTimeSpent" value="108867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -785,6 +770,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -803,34 +796,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Features/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Products/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        <state relative-caret-position="504">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Header/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Features/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="76" />
+        <state relative-caret-position="397">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="614" column="0" lean-forward="false" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Products/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="465">
+          <caret line="633" column="37" lean-forward="false" selection-start-line="633" selection-start-column="37" selection-end-line="633" selection-end-column="37" />
           <folding />
         </state>
       </provider>

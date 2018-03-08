@@ -435,23 +435,34 @@ h1 {
         display: inline-block; } }
 
 .productsContainer {
-  background: #697fd5; }
+  background: #fff; }
   .productsContainer .tabList {
-    text-align: center; }
+    text-align: center;
+    padding: 0; }
     .productsContainer .tabList li {
       display: inline-block;
       cursor: pointer;
       padding: 9px 9px 9px;
-      width: 116px; }
+      border-radius: 50%;
+      height: 118px;
+      width: 118px;
+      background: #fff;
+      transition: 0.3s all; }
+      .productsContainer .tabList li:hover {
+        background: #86BC42; }
+        .productsContainer .tabList li:hover a {
+          color: #fff; }
+        .productsContainer .tabList li:hover img {
+          transform: translate(0, -17px); }
     .productsContainer .tabList a {
       font-size: 14px;
       font-weight: bold;
       letter-spacing: 1px;
       color: black; }
-      .productsContainer .tabList a:hover {
-        color: #86BC42; }
     .productsContainer .tabList img {
       display: block;
-      margin: 0 auto; }
+      margin: 0 auto;
+      vertical-align: middle;
+      transition: transform 0.5s ease-in-out; }
 
 /*# sourceMappingURL=styles.css.map */

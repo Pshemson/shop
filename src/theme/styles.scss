@@ -603,6 +603,16 @@ h1 {
   }
 }
 
+.underDescription {
+  display: none;
+  @include small {
+    text-align: center;
+    display: inline-block;
+    img {
+      margin-left: 140px;
+    }
+  }
+}
 //Products
 
 .productsContainer {

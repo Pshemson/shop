@@ -56,6 +56,9 @@ class Features extends React.Component {
                     </span>
                     </div>
                 </div>
+                <div className="container underDescription">
+                    <img src="src/images/herbalism.png"/>
+                </div>
             </section>
         );
     }

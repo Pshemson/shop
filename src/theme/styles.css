@@ -429,6 +429,15 @@ h1 {
       display: block;
       font-weight: bolder; }
 
+.underDescription {
+  display: none; }
+  @media (min-width: 768px) {
+    .underDescription {
+      text-align: center;
+      display: inline-block; }
+      .underDescription img {
+        margin-left: 140px; } }
+
 .productsContainer {
   background: red; }
 

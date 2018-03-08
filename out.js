@@ -9622,6 +9622,10 @@ var _Features = __webpack_require__(186);
 
 var _Features2 = _interopRequireDefault(_Features);
 
+var _Products = __webpack_require__(187);
+
+var _Products2 = _interopRequireDefault(_Products);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -9648,7 +9652,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     null,
                     _react2.default.createElement(_Header2.default, null),
                     _react2.default.createElement(_Slider2.default, null),
-                    _react2.default.createElement(_Features2.default, null)
+                    _react2.default.createElement(_Features2.default, null),
+                    _react2.default.createElement(_Products2.default, null)
                 );
             }
         }]);
@@ -22612,6 +22617,11 @@ var Features = function (_React$Component) {
                             "GreenMart\u2019s Founder/CEO"
                         )
                     )
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { className: "container underDescription" },
+                    _react2.default.createElement("img", { src: "src/images/herbalism.png" })
                 )
             );
         }
@@ -22621,6 +22631,88 @@ var Features = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Features;
+
+/***/ }),
+/* 187 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(24);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Products = function (_React$Component) {
+    _inherits(Products, _React$Component);
+
+    function Products() {
+        _classCallCheck(this, Products);
+
+        return _possibleConstructorReturn(this, (Products.__proto__ || Object.getPrototypeOf(Products)).apply(this, arguments));
+    }
+
+    _createClass(Products, [{
+        key: "render",
+        value: function render() {
+            return _react2.default.createElement(
+                "div",
+                { className: "container productsContainer" },
+                _react2.default.createElement(
+                    "h2",
+                    null,
+                    "Products"
+                ),
+                _react2.default.createElement(
+                    "ul",
+                    { className: "productsList" },
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement("img", { src: "#" }),
+                        _react2.default.createElement(
+                            "h3",
+                            null,
+                            "Product name 1"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            null,
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "99,00$"
+                            ),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "Buy"
+                            )
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Products;
+}(_react2.default.Component);
+
+exports.default = Products;
 
 /***/ })
 /******/ ]);

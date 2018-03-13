@@ -22748,17 +22748,18 @@ var Products = function (_React$Component) {
                             )
                         ),
                         _react2.default.createElement(
-                            "div",
+                            "span",
                             null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
                             _react2.default.createElement(
-                                "span",
-                                null,
-                                "99,00$"
-                            ),
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "Buy"
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
                     ),
@@ -22776,17 +22777,18 @@ var Products = function (_React$Component) {
                             )
                         ),
                         _react2.default.createElement(
-                            "div",
+                            "span",
                             null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
                             _react2.default.createElement(
-                                "span",
-                                null,
-                                "99,00$"
-                            ),
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "Buy"
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
                     ),
@@ -22804,17 +22806,18 @@ var Products = function (_React$Component) {
                             )
                         ),
                         _react2.default.createElement(
-                            "div",
+                            "span",
                             null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
                             _react2.default.createElement(
-                                "span",
-                                null,
-                                "99,00$"
-                            ),
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "Buy"
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
                     ),
@@ -22832,17 +22835,18 @@ var Products = function (_React$Component) {
                             )
                         ),
                         _react2.default.createElement(
-                            "div",
+                            "span",
                             null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
                             _react2.default.createElement(
-                                "span",
-                                null,
-                                "99,00$"
-                            ),
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "Buy"
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
                     ),
@@ -22860,17 +22864,18 @@ var Products = function (_React$Component) {
                             )
                         ),
                         _react2.default.createElement(
-                            "div",
+                            "span",
                             null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
                             _react2.default.createElement(
-                                "span",
-                                null,
-                                "99,00$"
-                            ),
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "Buy"
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
                     ),
@@ -22888,17 +22893,18 @@ var Products = function (_React$Component) {
                             )
                         ),
                         _react2.default.createElement(
-                            "div",
+                            "span",
                             null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
                             _react2.default.createElement(
-                                "span",
-                                null,
-                                "99,00$"
-                            ),
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "Buy"
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
                     ),
@@ -22916,17 +22922,18 @@ var Products = function (_React$Component) {
                             )
                         ),
                         _react2.default.createElement(
-                            "div",
+                            "span",
                             null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
                             _react2.default.createElement(
-                                "span",
-                                null,
-                                "99,00$"
-                            ),
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "Buy"
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
                     ),
@@ -22944,17 +22951,18 @@ var Products = function (_React$Component) {
                             )
                         ),
                         _react2.default.createElement(
-                            "div",
+                            "span",
                             null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
                             _react2.default.createElement(
-                                "span",
-                                null,
-                                "99,00$"
-                            ),
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "Buy"
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
                     ),
@@ -22972,17 +22980,18 @@ var Products = function (_React$Component) {
                             )
                         ),
                         _react2.default.createElement(
-                            "div",
+                            "span",
                             null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
                             _react2.default.createElement(
-                                "span",
-                                null,
-                                "99,00$"
-                            ),
-                            _react2.default.createElement(
-                                "span",
-                                null,
-                                "Buy"
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
                     )

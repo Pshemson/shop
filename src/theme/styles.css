@@ -510,4 +510,26 @@ h1 {
     width: auto;
     margin-left: 10px; }
 
+.navigateBtn {
+  text-align: center;
+  margin-top: 57px; }
+  .navigateBtn a {
+    color: #FFFFFF;
+    font-weight: bold; }
+    .navigateBtn a span {
+      border: 1px solid #86BC42;
+      background-color: #86BC42;
+      padding: 10px 30px;
+      transition: 0.4s all; }
+      .navigateBtn a span:hover {
+        background: white;
+        color: #86BC42; }
+
+.adBanner {
+  text-align: center;
+  margin-top: 89px; }
+  .adBanner img {
+    padding: 18px;
+    max-width: 100%; }
+
 /*# sourceMappingURL=styles.css.map */

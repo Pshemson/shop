@@ -22995,6 +22995,33 @@ var Products = function (_React$Component) {
                             )
                         )
                     )
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { className: "navigateBtn" },
+                    _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "More >"
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { className: "adBanner" },
+                    _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        _react2.default.createElement("img", { src: "src/images/banersale1.jpg" })
+                    ),
+                    _react2.default.createElement(
+                        "a",
+                        { href: "#" },
+                        _react2.default.createElement("img", { src: "src/images/banersale2.jpg" })
+                    )
                 )
             );
         }

@@ -706,3 +706,31 @@ h1 {
     }
   }
 }
+
+.navigateBtn {
+  text-align: center;
+  margin-top: 57px;
+  a {
+    color: #FFFFFF;
+    font-weight: bold;
+    span {
+      border: 1px solid #86BC42;
+      background-color: #86BC42;
+      padding: 10px 30px;
+      transition: 0.4s all;
+      &:hover {
+        background: white;
+        color: #86BC42;
+      }
+    }
+  }
+}
+
+.adBanner {
+  text-align: center;
+  margin-top: 89px;
+  img {
+    padding: 18px;
+    max-width: 100%;
+  }
+}

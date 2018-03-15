@@ -129,6 +129,13 @@ class Products extends React.Component {
                         </div>
                     </li>
                 </ul>
+                <div className="navigateBtn">
+                    <a href="#"><span>More ></span></a>
+                </div>
+                <div className="adBanner">
+                    <a href="#"><img src="src/images/banersale1.jpg" /></a>
+                    <a href="#"><img src="src/images/banersale2.jpg" /></a>
+                </div>
             </div>
         );
     }

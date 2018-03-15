@@ -23022,6 +23022,16 @@ var Products = function (_React$Component) {
                         { href: "#" },
                         _react2.default.createElement("img", { src: "src/images/banersale2.jpg" })
                     )
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { className: "brandSlider" },
+                    _react2.default.createElement("img", { src: "src/images/brand-1.png" }),
+                    _react2.default.createElement("img", { src: "src/images/brand-2.png" }),
+                    _react2.default.createElement("img", { src: "src/images/brand-3.png" }),
+                    _react2.default.createElement("img", { src: "src/images/brand-4.png" }),
+                    _react2.default.createElement("img", { src: "src/images/brand-5.png" }),
+                    _react2.default.createElement("img", { src: "src/images/brand-6.png" })
                 )
             );
         }

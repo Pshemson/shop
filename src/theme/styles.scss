@@ -627,6 +627,7 @@ h1 {
       width: 118px;
       background: #F9F9F9;
       transition: 0.3s all;
+      margin-right: 10px;
       &:hover {
         background: #86BC42;
         a {
@@ -686,11 +687,11 @@ h1 {
     color: #86BC42;
   }
   .optionsBtn {
+    margin-bottom: 11px;
     a {
       border: 1px solid lightgrey;
       display: inline-block;
-      border-radius: 11%;
-      padding: 10px;
+      padding: 9px;
       font-size: 14px;
       transition: 0.4s all;
       text-transform: uppercase;
@@ -732,5 +733,22 @@ h1 {
   img {
     padding: 18px;
     max-width: 100%;
+  }
+}
+
+.brandSlider {
+  display: none;
+  @include small {
+    display: inherit;
+    height: 130px;
+    background-color: #FCFCFC;
+    text-align: center;
+    img {
+      padding: 0 23px 0 23px;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
 }

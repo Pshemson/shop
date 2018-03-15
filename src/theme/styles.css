@@ -449,7 +449,8 @@ h1 {
       height: 118px;
       width: 118px;
       background: #F9F9F9;
-      transition: 0.3s all; }
+      transition: 0.3s all;
+      margin-right: 10px; }
       .productsContainer .tabList li:hover {
         background: #86BC42; }
         .productsContainer .tabList li:hover a {
@@ -495,20 +496,21 @@ h1 {
     position: absolute;
     font-weight: bold;
     color: #86BC42; }
-  .productsList .optionsBtn a {
-    border: 1px solid lightgrey;
-    display: inline-block;
-    border-radius: 11%;
-    padding: 10px;
-    font-size: 14px;
-    transition: 0.4s all;
-    text-transform: uppercase; }
-    .productsList .optionsBtn a:hover {
-      background: #86BC42;
-      color: #FFFFFF; }
-  .productsList .optionsBtn img {
-    width: auto;
-    margin-left: 10px; }
+  .productsList .optionsBtn {
+    margin-bottom: 11px; }
+    .productsList .optionsBtn a {
+      border: 1px solid lightgrey;
+      display: inline-block;
+      padding: 9px;
+      font-size: 14px;
+      transition: 0.4s all;
+      text-transform: uppercase; }
+      .productsList .optionsBtn a:hover {
+        background: #86BC42;
+        color: #FFFFFF; }
+    .productsList .optionsBtn img {
+      width: auto;
+      margin-left: 10px; }
 
 .navigateBtn {
   text-align: center;
@@ -531,5 +533,19 @@ h1 {
   .adBanner img {
     padding: 18px;
     max-width: 100%; }
+
+.brandSlider {
+  display: none; }
+  @media (min-width: 768px) {
+    .brandSlider {
+      display: inherit;
+      height: 130px;
+      background-color: #FCFCFC;
+      text-align: center; }
+      .brandSlider img {
+        padding: 0 23px 0 23px;
+        opacity: 0.5; }
+        .brandSlider img:hover {
+          opacity: 1; } }
 
 /*# sourceMappingURL=styles.css.map */

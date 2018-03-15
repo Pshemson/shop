@@ -136,6 +136,14 @@ class Products extends React.Component {
                     <a href="#"><img src="src/images/banersale1.jpg" /></a>
                     <a href="#"><img src="src/images/banersale2.jpg" /></a>
                 </div>
+                <div className="brandSlider">
+                    <img src="src/images/brand-1.png" />
+                    <img src="src/images/brand-2.png" />
+                    <img src="src/images/brand-3.png" />
+                    <img src="src/images/brand-4.png" />
+                    <img src="src/images/brand-5.png" />
+                    <img src="src/images/brand-6.png" />
+                </div>
             </div>
         );
     }

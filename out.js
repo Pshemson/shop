@@ -22965,35 +22965,6 @@ var Products = function (_React$Component) {
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
-                    ),
-                    _react2.default.createElement(
-                        "li",
-                        { className: "singleProduct" },
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            _react2.default.createElement("img", { src: "src/images/product-vege.jpg" }),
-                            _react2.default.createElement(
-                                "h3",
-                                null,
-                                "Vegetables"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "span",
-                            null,
-                            "99,00$"
-                        ),
-                        _react2.default.createElement(
-                            "div",
-                            { className: "optionsBtn" },
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#" },
-                                "Add to cart",
-                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
-                            )
-                        )
                     )
                 ),
                 _react2.default.createElement(
@@ -23021,6 +22992,219 @@ var Products = function (_React$Component) {
                         "a",
                         { href: "#" },
                         _react2.default.createElement("img", { src: "src/images/banersale2.jpg" })
+                    )
+                ),
+                _react2.default.createElement(
+                    "h2",
+                    null,
+                    "Deals of The Day"
+                ),
+                _react2.default.createElement(
+                    "ul",
+                    { className: "dealsList" },
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-eggs.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Eggs"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "2,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-milk.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Milk"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "5,00$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-fruits.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Fruits"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "6,77$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-fish.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Fish"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "8,88$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-vege.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Vegetables"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "9,87$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        { className: "singleProduct" },
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            _react2.default.createElement("img", { src: "src/images/product-eggs.jpg" }),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                "Eggs"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "99,00$"
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "3,47$"
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "optionsBtn" },
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Add to cart",
+                                _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
+                            )
+                        )
                     )
                 ),
                 _react2.default.createElement(

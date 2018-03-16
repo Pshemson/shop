@@ -479,16 +479,22 @@ h1 {
     text-align: center;
     border: 1px solid lightgrey;
     margin: 5px 0 0 5px; }
+    .productsList .singleProduct:hover {
+      border: 2px solid #86BC42;
+      margin: 4px 0 0 4px; }
     .productsList .singleProduct h3 {
       font-weight: bold; }
+      .productsList .singleProduct h3:hover {
+        color: #86BC42; }
     @media (min-width: 768px) {
       .productsList .singleProduct {
-        width: calc(33% - 5px); } }
+        width: calc(25% - 5px); } }
     .productsList .singleProduct img {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      padding: 1px; }
   .productsList span {
-    border: 1px solid lightgrey;
+    border: 1px solid #86BC42;
     border-radius: 20%;
     padding: 8px;
     top: 2%;
@@ -547,5 +553,61 @@ h1 {
         opacity: 0.5; }
         .brandSlider img:hover {
           opacity: 1; } }
+
+.dealsList {
+  padding: 0; }
+  .dealsList .singleProduct {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid lightgrey;
+    margin: 5px 0 0 5px; }
+    .dealsList .singleProduct:hover {
+      border: 2px solid #86BC42;
+      margin: 4px 0 0 4px; }
+    .dealsList .singleProduct h3 {
+      font-weight: bold; }
+      .dealsList .singleProduct h3:hover {
+        color: #86BC42; }
+    @media (min-width: 768px) {
+      .dealsList .singleProduct {
+        width: calc(33% - 5px); } }
+    .dealsList .singleProduct img {
+      width: 100%;
+      height: 100%;
+      padding: 1px; }
+  .dealsList span:nth-child(2) {
+    border: 1px solid #86BC42;
+    border-radius: 20%;
+    padding: 8px;
+    top: 2%;
+    right: 8px;
+    position: absolute;
+    font-weight: bold;
+    color: #86BC42; }
+  .dealsList span:nth-child(3) {
+    border: 1px solid lightgrey;
+    border-radius: 20%;
+    padding: 8px;
+    top: 2%;
+    right: 79px;
+    position: absolute;
+    color: #bbb;
+    text-decoration: line-through; }
+  .dealsList .optionsBtn {
+    margin-bottom: 11px; }
+    .dealsList .optionsBtn a {
+      border: 1px solid lightgrey;
+      display: inline-block;
+      padding: 9px;
+      font-size: 14px;
+      transition: 0.4s all;
+      text-transform: uppercase; }
+      .dealsList .optionsBtn a:hover {
+        background: #86BC42;
+        color: #FFFFFF; }
+    .dealsList .optionsBtn img {
+      width: auto;
+      margin-left: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

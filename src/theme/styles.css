@@ -592,7 +592,7 @@ h1 {
     top: 2%;
     right: 79px;
     position: absolute;
-    color: #bbb;
+    color: #3b3a3a;
     text-decoration: line-through; }
   .dealsList .optionsBtn {
     margin-bottom: 11px; }
@@ -609,5 +609,10 @@ h1 {
     .dealsList .optionsBtn img {
       width: auto;
       margin-left: 10px; }
+
+.footerContainer {
+  background-color: lightgrey; }
+  .footerContainer h6 {
+    font-size: 33px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -4,7 +4,7 @@ import Header from '../Header';
 import Slider from '../Slider';
 import Features from '../Features';
 import Products from '../Products';
-
+import Footer from '../Footer';
 document.addEventListener('DOMContentLoaded', () => {
     class App extends React.Component {
 
@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <Slider />
                     <Features />
                     <Products />
+                    <Footer />
                 </div>
             );
         }

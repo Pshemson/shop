@@ -806,7 +806,7 @@ h1 {
       top: 2%;
       right: 79px;
       position: absolute;
-      color: #bbb;
+      color: #3b3a3a;
       text-decoration: line-through;
     }
   }
@@ -829,5 +829,13 @@ h1 {
       margin-left: 10px;
 
     }
+  }
+}
+
+//Footer section
+.footerContainer {
+  background-color: lightgrey;
+  h6 {
+font-size: 33px;
   }
 }

@@ -22403,22 +22403,34 @@ var Slider = function (_React$Component) {
     }
 
     _createClass(Slider, [{
-        key: "render",
+        key: 'render',
         value: function render() {
 
-            ////var sliderContainer = document.querySelector('.sliderContainer');
-            ////var allSlides = [...sliderContainer.querySelectorAll('.sliderContent')];
-            //var nextSlide = document.querySelector('.nextSlide');
-            ////var prevSlide = document.querySelector('.prevSlide');
-            ////var counter = 0;
+            var sliderContainer = document.querySelector('.sliderContainer');
+            var allSlides = document.querySelectorAll('.sliderContent');
+            var nextSlide = document.querySelector('.nextSlide');
+            var prevSlide = document.querySelector('.prevSlide');
+            var counter = 0;
+            //var sliderContainer = document.querySelector('.sliderContainer');
+
+            function clickFun() {
+                console.log('Klika!');
+                sliderContainer.style.width = '20%';
+            }
+
+            //nextSlide.addEventListener('click', function(event){
+            //    if (counter <= allSlides.length - 2) {
+            //        allSlides[counter].style.marginLeft = "-100%";
+            //        counter++;
+            //        if (counter < allSlides.length -1) {
+            //            prevSlide.style.color = "#24ba9f";
+            //        } else {
+            //            this.style.color = "#c6c6c6";
+            //        }
+            //    }
             //
-            //
-            //
-            //for (var i = 0; i < nextSlide.length; i++) {
-            //    nextSlide[i].addEndEventListener('click', function (event) {
-            //        this.style.color = 'red';
-            //    });
-            //}
+            //});
+
 
             //function myFunction(a, b) {
             //    const pipa = a + b;
@@ -22430,65 +22442,117 @@ var Slider = function (_React$Component) {
 
 
             return _react2.default.createElement(
-                "div",
-                { className: "sliderContainer" },
+                'div',
+                { className: 'sliderContainer' },
                 _react2.default.createElement(
-                    "div",
-                    { className: "sliderContent" },
+                    'div',
+                    { className: 'sliderContent' },
                     _react2.default.createElement(
-                        "div",
-                        { className: "sliderText" },
+                        'div',
+                        { className: 'sliderText' },
                         _react2.default.createElement(
-                            "h2",
+                            'h2',
                             null,
-                            "True ",
+                            'True ',
                             _react2.default.createElement(
-                                "strong",
+                                'strong',
                                 null,
-                                "passionate"
+                                'passionate'
                             ),
-                            " from our ",
+                            ' from our ',
                             _react2.default.createElement(
-                                "strong",
+                                'strong',
                                 null,
-                                "farmers"
+                                'farmers'
                             )
                         ),
                         _react2.default.createElement(
-                            "p",
+                            'p',
                             null,
-                            "Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna."
+                            'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.'
                         ),
                         _react2.default.createElement(
-                            "div",
-                            { className: "sliderBtn" },
+                            'div',
+                            { className: 'sliderBtn' },
                             _react2.default.createElement(
-                                "span",
+                                'span',
                                 null,
                                 _react2.default.createElement(
-                                    "a",
-                                    { href: "#" },
-                                    "GET IT NOW"
+                                    'a',
+                                    { href: '#' },
+                                    'GET IT NOW'
                                 )
                             ),
                             _react2.default.createElement(
-                                "span",
+                                'span',
                                 null,
                                 _react2.default.createElement(
-                                    "a",
-                                    { href: "#" },
-                                    "LEARN MORE"
+                                    'a',
+                                    { href: '#' },
+                                    'LEARN MORE'
                                 )
                             )
                         )
                     ),
-                    _react2.default.createElement("img", { src: "src/images/slider-31.jpg" }),
+                    _react2.default.createElement('img', { src: 'src/images/slider-31.jpg' })
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'sliderContent' },
                     _react2.default.createElement(
-                        "div",
-                        { className: "sliderArrows" },
-                        _react2.default.createElement("span", { className: "arrows prevSlide" }),
-                        _react2.default.createElement("span", { className: "arrows nextSlide" })
-                    )
+                        'div',
+                        { className: 'sliderText' },
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'True ',
+                            _react2.default.createElement(
+                                'strong',
+                                null,
+                                'passionate'
+                            ),
+                            ' from our ',
+                            _react2.default.createElement(
+                                'strong',
+                                null,
+                                'farmers'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'sliderBtn' },
+                            _react2.default.createElement(
+                                'span',
+                                null,
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'GET IT NOW'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'span',
+                                null,
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'DRUGI SLAJD'
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement('img', { src: 'src/images/slider-31.jpg' })
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'sliderArrows' },
+                    _react2.default.createElement('span', { className: 'arrows prevSlide' }),
+                    _react2.default.createElement('span', { className: 'arrows nextSlide', onClick: clickFun })
                 )
             );
         }

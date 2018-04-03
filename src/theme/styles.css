@@ -295,38 +295,30 @@ h1 {
           font-size: 19px; }
         .sliderContainer .sliderText h2 {
           font-size: 54px; } }
-  .sliderContainer .sliderBtn {
-    position: absolute;
-    top: 81%;
-    left: 4%; }
+  .sliderContainer .sliderBtn span {
+    border: 1px solid #86BC42;
+    border-radius: 5px;
+    background-color: #86BC42;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.4s all; }
     @media (min-width: 960px) {
-      .sliderContainer .sliderBtn {
-        top: 75%;
-        left: 2%; } }
-    .sliderContainer .sliderBtn span {
-      border: 1px solid #86BC42;
-      border-radius: 5px;
-      background-color: #86BC42;
-      padding: 6px;
-      font-weight: bold;
-      font-size: 15px;
-      margin-left: 5px;
-      cursor: pointer;
+      .sliderContainer .sliderBtn span {
+        padding: 11px; } }
+    .sliderContainer .sliderBtn span a {
+      color: #FFFFFF; }
+    .sliderContainer .sliderBtn span:hover {
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
       transition: 0.4s all; }
-      @media (min-width: 960px) {
-        .sliderContainer .sliderBtn span {
-          padding: 11px; } }
-      .sliderContainer .sliderBtn span a {
-        color: #FFFFFF; }
-      .sliderContainer .sliderBtn span:hover {
-        background: #FFFFFF;
-        border: 1px solid #FFFFFF;
+      .sliderContainer .sliderBtn span:hover a {
+        font-weight: bold;
+        font-size: 15px;
+        color: #86BC42;
         transition: 0.4s all; }
-        .sliderContainer .sliderBtn span:hover a {
-          font-weight: bold;
-          font-size: 15px;
-          color: #86BC42;
-          transition: 0.4s all; }
   .sliderContainer .sliderArrows {
     position: absolute;
     top: 55%;

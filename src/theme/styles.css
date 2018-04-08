@@ -249,6 +249,8 @@ h1 {
     .sliderContainer {
       width: 100%;
       height: 700px; } }
+  .sliderContainer .slide {
+    display: none; }
   .sliderContainer img {
     position: absolute;
     left: 50%;

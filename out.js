@@ -22441,7 +22441,6 @@ var Slider = function (_React$Component) {
             this.allSlides.forEach(function (slide, i) {
                 return i !== slideNumber ? slide.style.display = "none" : slide.style.display = "block";
             });
-            // this.allSlides[slideNumber].style.display = "block";
         }
     }, {
         key: 'render',
@@ -22452,12 +22451,12 @@ var Slider = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { className: 'slide' },
-                    'CHUj1'
+                    'SLIDE1'
                 ),
                 _react2.default.createElement(
                     'div',
                     { className: 'slide' },
-                    'CHUj2'
+                    'SLIDE2'
                 ),
                 _react2.default.createElement(
                     'div',
@@ -23227,7 +23226,7 @@ var Products = function (_React$Component) {
                 ),
                 _react2.default.createElement(
                     "div",
-                    { className: "welcomeContainer" },
+                    { className: "feedbackContainer" },
                     _react2.default.createElement(
                         "p",
                         null,

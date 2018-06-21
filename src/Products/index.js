@@ -203,7 +203,7 @@ class Products extends React.Component {
                     <img src="src/images/brand-5.png" />
                     <img src="src/images/brand-6.png" />
                 </div>
-                <div className="welcomeContainer">
+                <div className="feedbackContainer">
                     <p>
                         How‘re we doing? Give us a feedback. <br/>
                         It’s very important to us to improve your experiences, many thanks for your contributions.

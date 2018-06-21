@@ -472,7 +472,8 @@ h1 {
     display: inline-block;
     text-align: center;
     border: 1px solid lightgrey;
-    margin: 5px 0 0 5px; }
+    margin: 5px 0 0 5px;
+    width: calc(48%); }
     .productsList .singleProduct:hover {
       border: 2px solid #86BC42;
       margin: 4px 0 0 4px; }
@@ -535,18 +536,17 @@ h1 {
     max-width: 100%; }
 
 .brandSlider {
-  display: none; }
-  @media (min-width: 768px) {
-    .brandSlider {
-      display: inherit;
-      height: 130px;
-      background-color: #FCFCFC;
-      text-align: center; }
+  display: flex;
+  justify-content: space-between;
+  background-color: #FCFCFC; }
+  .brandSlider img {
+    opacity: 0.5; }
+    .brandSlider img:hover {
+      opacity: 1; }
+    @media (min-width: 768px) {
       .brandSlider img {
-        padding: 0 23px 0 23px;
-        opacity: 0.5; }
-        .brandSlider img:hover {
-          opacity: 1; } }
+        display: flex;
+        justify-content: center; } }
 
 .dealsList {
   padding: 0; }
@@ -604,8 +604,19 @@ h1 {
       width: auto;
       margin-left: 10px; }
 
+.feedbackContainer {
+  text-align: center;
+  margin-top: 54px; }
+  .feedbackContainer p {
+    font-size: 14px;
+    color: grey;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto; }
+
 .footerContainer {
-  background-color: lightgrey; }
+  background-color: lightgrey;
+  margin-top: -16px; }
   .footerContainer h6 {
     font-size: 33px; }
 

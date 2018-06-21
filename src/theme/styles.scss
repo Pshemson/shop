@@ -657,12 +657,14 @@ h1 {
 }
 .productsList {
   padding: 0;
+
   .singleProduct {
     position: relative;
     display: inline-block;
     text-align: center;
     border: 1px solid lightgrey;
     margin: 5px 0 0 5px;
+    width: calc(48%);
     &:hover {
       border: 2px solid #86BC42;
       margin: 4px 0 0 4px;
@@ -743,18 +745,19 @@ h1 {
 }
 
 .brandSlider {
-  display: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FCFCFC;
+  img {
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
   @include small {
-    display: inherit;
-    height: 130px;
-    background-color: #FCFCFC;
-    text-align: center;
-    img {
-      padding: 0 23px 0 23px;
-      opacity: 0.5;
-      &:hover {
-        opacity: 1;
-      }
+    display: flex;
+    justify-content: center;
+
+
     }
   }
 }
@@ -830,9 +833,21 @@ h1 {
   }
 }
 
+.feedbackContainer {
+  text-align: center;
+  margin-top: 54px;
+  p {
+    font-size: 14px;
+    color: grey;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
 //Footer section
 .footerContainer {
   background-color: lightgrey;
+  margin-top: -16px; ;
   h6 {
 font-size: 33px;
   }

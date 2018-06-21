@@ -52,8 +52,8 @@ class Slider extends React.Component {
                  <img src="src/images/slider-31.jpg"/>
                  </div>*/}
 
-                <div className="slide">CHUj1</div>
-                <div className="slide">CHUj2</div>
+                <div className="slide">SLIDE1</div>
+                <div className="slide">SLIDE2</div>
 
                 <div className="sliderArrows">
                     <span className="arrows prevSlide" />

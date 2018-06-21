@@ -664,7 +664,7 @@ h1 {
     text-align: center;
     border: 1px solid lightgrey;
     margin: 5px 0 0 5px;
-    width: calc(48%);
+    width: calc(48% + 4px);
     &:hover {
       border: 2px solid #86BC42;
       margin: 4px 0 0 4px;
@@ -684,7 +684,7 @@ h1 {
       padding: 1px;
     }
   }
-  span {
+  .productPrice {
     border: 1px solid #86BC42;
     border-radius: 20%;
     padding: 8px;
@@ -696,9 +696,13 @@ h1 {
   }
   .optionsBtn {
     margin-bottom: 11px;
+    display: flex;
+    justify-content: center;
     a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       border: 1px solid lightgrey;
-      display: inline-block;
       padding: 9px;
       font-size: 14px;
       transition: 0.4s all;
@@ -812,10 +816,14 @@ h1 {
     }
   }
   .optionsBtn {
-    margin-bottom: 11px;
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: center;
     a {
       border: 1px solid lightgrey;
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       padding: 9px;
       font-size: 14px;
       transition: 0.4s all;

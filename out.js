@@ -22756,7 +22756,7 @@ var Products = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             "span",
-                            null,
+                            { className: "productPrice" },
                             "99,00$"
                         ),
                         _react2.default.createElement(
@@ -22765,7 +22765,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -22785,7 +22789,7 @@ var Products = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             "span",
-                            null,
+                            { className: "productPrice" },
                             "99,00$"
                         ),
                         _react2.default.createElement(
@@ -22794,7 +22798,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -22814,7 +22822,7 @@ var Products = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             "span",
-                            null,
+                            { className: "productPrice" },
                             "99,00$"
                         ),
                         _react2.default.createElement(
@@ -22823,7 +22831,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -22843,7 +22855,7 @@ var Products = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             "span",
-                            null,
+                            { className: "productPrice" },
                             "99,00$"
                         ),
                         _react2.default.createElement(
@@ -22852,7 +22864,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -22872,7 +22888,7 @@ var Products = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             "span",
-                            null,
+                            { className: "productPrice" },
                             "99,00$"
                         ),
                         _react2.default.createElement(
@@ -22881,7 +22897,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -22901,7 +22921,7 @@ var Products = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             "span",
-                            null,
+                            { className: "productPrice" },
                             "99,00$"
                         ),
                         _react2.default.createElement(
@@ -22910,7 +22930,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -22930,7 +22954,7 @@ var Products = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             "span",
-                            null,
+                            { className: "productPrice" },
                             "99,00$"
                         ),
                         _react2.default.createElement(
@@ -22939,7 +22963,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -22959,7 +22987,7 @@ var Products = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             "span",
-                            null,
+                            { className: "productPrice" },
                             "99,00$"
                         ),
                         _react2.default.createElement(
@@ -22968,7 +22996,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -23038,7 +23070,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -23072,7 +23108,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -23106,7 +23146,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -23140,7 +23184,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -23174,7 +23222,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )
@@ -23208,7 +23260,11 @@ var Products = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Add to cart",
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    "Add to cart"
+                                ),
                                 _react2.default.createElement("img", { src: "src/images/shopping-cart.png" })
                             )
                         )

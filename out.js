@@ -23342,11 +23342,50 @@ var Footer = function (_React$Component) {
                 { className: "footerContainer" },
                 _react2.default.createElement(
                     "div",
-                    null,
+                    { className: "newsletterBox container" },
                     _react2.default.createElement(
-                        "h6",
+                        "li",
                         null,
-                        "Newsletter"
+                        _react2.default.createElement(
+                            "h6",
+                            null,
+                            _react2.default.createElement(
+                                "strong",
+                                null,
+                                "Newsletter"
+                            ),
+                            " Sign Up"
+                        ),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            "(Get 30% OFF coupon today subscribers)"
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        null,
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            "Join ",
+                            _react2.default.createElement(
+                                "strong",
+                                null,
+                                "35.000+ subscribers"
+                            ),
+                            " and get a new discount coupon on every Wednesday."
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "li",
+                        null,
+                        _react2.default.createElement("input", { placeholder: "Your email address..." }),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            "SUBSCRIBE"
+                        )
                     )
                 )
             );

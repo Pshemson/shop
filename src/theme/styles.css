@@ -473,9 +473,9 @@ h1 {
     text-align: center;
     border: 1px solid lightgrey;
     margin: 5px 0 0 5px;
-    width: calc(48% + 4px); }
+    width: calc(48% + 2px); }
     .productsList .singleProduct:hover {
-      border: 2px solid #86BC42;
+      border: 1px solid #86BC42;
       margin: 4px 0 0 4px; }
     .productsList .singleProduct h3 {
       font-weight: bold; }
@@ -561,7 +561,7 @@ h1 {
     border: 1px solid lightgrey;
     margin: 5px 0 0 5px; }
     .dealsList .singleProduct:hover {
-      border: 2px solid #86BC42;
+      border: 1px solid #86BC42;
       margin: 4px 0 0 4px; }
     .dealsList .singleProduct h3 {
       font-weight: bold; }
@@ -623,9 +623,36 @@ h1 {
     margin: 0 auto; }
 
 .footerContainer {
-  background-color: lightgrey;
-  margin-top: -16px; }
-  .footerContainer h6 {
-    font-size: 33px; }
+  background-color: #86BC42;
+  margin-top: 40px;
+  height: 160px; }
+  .footerContainer .newsletterBox {
+    background-color: #FCFCFC;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center; }
+    .footerContainer .newsletterBox li {
+      display: inline-block;
+      padding: 20px 10px; }
+    .footerContainer .newsletterBox h6 {
+      font-size: 22px;
+      margin: 0; }
+    .footerContainer .newsletterBox input {
+      padding: 7px; }
+    .footerContainer .newsletterBox span {
+      border: 1px solid #86BC42;
+      background-color: #86BC42;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: 0.4s all;
+      cursor: pointer; }
+      .footerContainer .newsletterBox span:hover {
+        background-color: #FFFFFF;
+        color: #86BC42; }
 
 /*# sourceMappingURL=styles.css.map */

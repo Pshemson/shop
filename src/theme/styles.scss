@@ -892,3 +892,14 @@ h1 {
     }
   }
 }
+.footerInfo {
+  background-color: #FCFCFC;
+  display: flex;
+  justify-content: space-between;
+}
+h7 {
+  font-weight: bold;
+}
+li {
+  display: inline-block;
+}

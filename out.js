@@ -23342,7 +23342,7 @@ var Footer = function (_React$Component) {
                 null,
                 _react2.default.createElement(
                     "div",
-                    { className: "footerContainer" },
+                    { className: "newsletterContainer" },
                     _react2.default.createElement(
                         "div",
                         { className: "newsletterBox container" },
@@ -23394,7 +23394,7 @@ var Footer = function (_React$Component) {
                 ),
                 _react2.default.createElement(
                     "ul",
-                    { className: "footerInfo container" },
+                    { className: "footerInfo" },
                     _react2.default.createElement(
                         "li",
                         null,
@@ -23406,7 +23406,12 @@ var Footer = function (_React$Component) {
                         _react2.default.createElement(
                             "p",
                             null,
-                            "GreenMart App is now available on Google Play & App Store. Get it now."
+                            "GreenMart App is now available on Google Play & App Store."
+                        ),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            "Get it now."
                         )
                     ),
                     _react2.default.createElement(
@@ -23418,13 +23423,29 @@ var Footer = function (_React$Component) {
                             "INFORMATION"
                         ),
                         _react2.default.createElement(
-                            "p",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#" },
-                                "Home"
-                            )
+                            "a",
+                            { href: "#" },
+                            "About us"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Delivery Information"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Privacy & Policy"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Terms & Conditions"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Manufactures"
                         )
                     ),
                     _react2.default.createElement(
@@ -23435,7 +23456,31 @@ var Footer = function (_React$Component) {
                             null,
                             "USER AREA"
                         ),
-                        _react2.default.createElement("p", null)
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "My Account"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "My Cart"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Login"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Wishlist"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Checkout"
+                        )
                     ),
                     _react2.default.createElement(
                         "li",
@@ -23445,7 +23490,31 @@ var Footer = function (_React$Component) {
                             null,
                             "GUIDE & HELP"
                         ),
-                        _react2.default.createElement("p", null)
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Getting Started"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "FAQs"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Buying Guide"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Order Returns"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { href: "#" },
+                            "Affiliate Program"
+                        )
                     ),
                     _react2.default.createElement(
                         "li",
@@ -23455,7 +23524,22 @@ var Footer = function (_React$Component) {
                             null,
                             "CONTACT INFO"
                         ),
-                        _react2.default.createElement("p", null)
+                        _react2.default.createElement("img", { src: "src/images/support.png" }),
+                        _react2.default.createElement(
+                            "span",
+                            { className: "contactNumber" },
+                            "+01-202-555-0181"
+                        ),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            "71 Pilgrim Avenue Chevy Chase, MD 20815"
+                        ),
+                        _react2.default.createElement(
+                            "a",
+                            { className: "contactMail", href: "#" },
+                            "contact@example.com"
+                        )
                     )
                 )
             );

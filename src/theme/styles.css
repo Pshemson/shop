@@ -622,26 +622,27 @@ h1 {
     max-width: 600px;
     margin: 0 auto; }
 
-.footerContainer {
+.newsletterContainer {
   background-color: #86BC42;
-  margin-top: 40px;
-  height: 160px; }
-  .footerContainer .newsletterBox {
+  padding: 26px 0;
+  height: 160px;
+  margin-top: 62px; }
+  .newsletterContainer .newsletterBox {
     background-color: #FCFCFC;
     text-align: center;
     display: flex;
     justify-content: center;
     font-size: 14px;
     align-items: center; }
-    .footerContainer .newsletterBox li {
+    .newsletterContainer .newsletterBox li {
       display: inline-block;
       padding: 20px 10px; }
-    .footerContainer .newsletterBox h6 {
+    .newsletterContainer .newsletterBox h6 {
       font-size: 22px;
       margin: 0; }
-    .footerContainer .newsletterBox input {
+    .newsletterContainer .newsletterBox input {
       padding: 7px; }
-    .footerContainer .newsletterBox span {
+    .newsletterContainer .newsletterBox span {
       border: 1px solid #86BC42;
       background-color: #86BC42;
       color: #FFFFFF;
@@ -651,14 +652,33 @@ h1 {
       border-radius: 5px;
       transition: 0.4s all;
       cursor: pointer; }
-      .footerContainer .newsletterBox span:hover {
+      .newsletterContainer .newsletterBox span:hover {
         background-color: #FFFFFF;
         color: #86BC42; }
 
 .footerInfo {
-  background-color: #FCFCFC;
+  background-color: #FAFAFA;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-top: 40px;
+  margin: 0; }
+  .footerInfo a {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #868686; }
+  .footerInfo p {
+    font-size: 14px;
+    color: #868686; }
+  .footerInfo .contactMail {
+    color: #86BC42; }
+  .footerInfo .contactNumber {
+    font-size: 17px;
+    font-weight: bold;
+    color: black; }
+  .footerInfo img {
+    margin-right: 4px;
+    display: block; }
 
 h7 {
   font-weight: bold; }

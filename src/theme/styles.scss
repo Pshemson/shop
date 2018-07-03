@@ -853,10 +853,11 @@ h1 {
   }
 }
 //Footer section
-.footerContainer {
+.newsletterContainer {
   background-color: #86BC42;
-  margin-top: 40px;
+  padding: 26px 0;
   height: 160px;
+  margin-top: 62px;
   .newsletterBox {
     background-color: #FCFCFC;
     text-align: center;
@@ -893,9 +894,33 @@ h1 {
   }
 }
 .footerInfo {
-  background-color: #FCFCFC;
+  background-color: #FAFAFA;
   display: flex;
   justify-content: space-between;
+  padding-top: 40px;
+  margin: 0;
+  a {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #868686
+  }
+  p {
+    font-size: 14px;
+    color: #868686
+  }
+  .contactMail {
+    color: #86BC42;
+  }
+  .contactNumber {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+  }
+  img {
+    margin-right: 4px;
+    display: block;
+  }
 }
 h7 {
   font-weight: bold;

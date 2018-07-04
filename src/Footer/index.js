@@ -25,6 +25,7 @@ class Footer extends React.Component {
                         </li>
                     </div>
                 </div>
+                <div className="footer">
                 <ul className="footerInfo">
                     <li>
                         <h7>
@@ -77,6 +78,7 @@ class Footer extends React.Component {
                         <a className="contactMail" href="#">contact@example.com</a>
                     </li>
                 </ul>
+                </div>
             </div>
 
         );

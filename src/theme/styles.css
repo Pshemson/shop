@@ -625,7 +625,6 @@ h1 {
 .newsletterContainer {
   background-color: #86BC42;
   padding: 26px 0;
-  height: 160px;
   margin-top: 62px; }
   .newsletterContainer .newsletterBox {
     background-color: #FCFCFC;
@@ -650,40 +649,91 @@ h1 {
       font-size: 13px;
       padding: 8px 15px;
       border-radius: 5px;
-      transition: 0.4s all;
-      cursor: pointer; }
-      .newsletterContainer .newsletterBox span:hover {
-        background-color: #FFFFFF;
-        color: #86BC42; }
+      cursor: pointer;
+      display: block; }
+      @media (min-width: 1200px) {
+        .newsletterContainer .newsletterBox span {
+          display: inline; } }
+      @media (min-width: 768px) {
+        .newsletterContainer .newsletterBox span {
+          border: 1px solid #86BC42;
+          background-color: #86BC42;
+          color: #FFFFFF;
+          font-weight: bold;
+          font-size: 13px;
+          padding: 8px 15px;
+          border-radius: 5px;
+          transition: 0.4s all;
+          cursor: pointer; }
+          .newsletterContainer .newsletterBox span:hover {
+            background-color: #FFFFFF;
+            color: #86BC42; } }
+
+.footer {
+  background-color: #FAFAFA; }
 
 .footerInfo {
   background-color: #FAFAFA;
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
-  margin: 0; }
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 1200px; }
   .footerInfo a {
     display: block;
-    margin: 10px 0;
-    font-size: 14px;
+    font-size: 12px;
     color: #868686; }
   .footerInfo p {
-    font-size: 14px;
+    font-size: 12px;
     color: #868686; }
   .footerInfo .contactMail {
     color: #86BC42; }
   .footerInfo .contactNumber {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
     color: black; }
   .footerInfo img {
     margin-right: 4px;
     display: block; }
+  @media (min-width: 768px) {
+    .footerInfo {
+      background-color: #FAFAFA;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 40px;
+      margin: 0 auto;
+      max-width: 1200px; }
+      .footerInfo a {
+        display: block;
+        margin: 10px 0;
+        font-size: 14px;
+        color: #868686; }
+      .footerInfo p {
+        font-size: 14px;
+        color: #868686; }
+      .footerInfo .contactMail {
+        color: #86BC42; }
+      .footerInfo .contactNumber {
+        font-size: 17px;
+        font-weight: bold;
+        color: black; }
+      .footerInfo img {
+        margin-right: 4px;
+        display: block; } }
 
 h7 {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 13px; }
+  @media (min-width: 768px) {
+    h7 {
+      font-size: 16px; } }
 
 li {
-  display: inline-block; }
+  display: inline-block;
+  min-width: 90px; }
+  @media (min-width: 768px) {
+    li {
+      min-width: 116px; } }
 
 /*# sourceMappingURL=styles.css.map */

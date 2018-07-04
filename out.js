@@ -23393,152 +23393,156 @@ var Footer = function (_React$Component) {
                     )
                 ),
                 _react2.default.createElement(
-                    "ul",
-                    { className: "footerInfo" },
+                    "div",
+                    { className: "footer" },
                     _react2.default.createElement(
-                        "li",
-                        null,
+                        "ul",
+                        { className: "footerInfo" },
                         _react2.default.createElement(
-                            "h7",
+                            "li",
                             null,
-                            "GET THE APP"
+                            _react2.default.createElement(
+                                "h7",
+                                null,
+                                "GET THE APP"
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "GreenMart App is now available on Google Play & App Store."
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "Get it now."
+                            )
                         ),
                         _react2.default.createElement(
-                            "p",
+                            "li",
                             null,
-                            "GreenMart App is now available on Google Play & App Store."
+                            _react2.default.createElement(
+                                "h7",
+                                null,
+                                "INFORMATION"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "About us"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Delivery Information"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Privacy & Policy"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Terms & Conditions"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Manufactures"
+                            )
                         ),
                         _react2.default.createElement(
-                            "p",
+                            "li",
                             null,
-                            "Get it now."
-                        )
-                    ),
-                    _react2.default.createElement(
-                        "li",
-                        null,
+                            _react2.default.createElement(
+                                "h7",
+                                null,
+                                "USER AREA"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "My Account"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "My Cart"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Login"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Wishlist"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Checkout"
+                            )
+                        ),
                         _react2.default.createElement(
-                            "h7",
+                            "li",
                             null,
-                            "INFORMATION"
+                            _react2.default.createElement(
+                                "h7",
+                                null,
+                                "GUIDE & HELP"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Getting Started"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "FAQs"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Buying Guide"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Order Returns"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Affiliate Program"
+                            )
                         ),
                         _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "About us"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Delivery Information"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Privacy & Policy"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Terms & Conditions"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Manufactures"
-                        )
-                    ),
-                    _react2.default.createElement(
-                        "li",
-                        null,
-                        _react2.default.createElement(
-                            "h7",
+                            "li",
                             null,
-                            "USER AREA"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "My Account"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "My Cart"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Login"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Wishlist"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Checkout"
-                        )
-                    ),
-                    _react2.default.createElement(
-                        "li",
-                        null,
-                        _react2.default.createElement(
-                            "h7",
-                            null,
-                            "GUIDE & HELP"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Getting Started"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "FAQs"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Buying Guide"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Order Returns"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "Affiliate Program"
-                        )
-                    ),
-                    _react2.default.createElement(
-                        "li",
-                        null,
-                        _react2.default.createElement(
-                            "h7",
-                            null,
-                            "CONTACT INFO"
-                        ),
-                        _react2.default.createElement("img", { src: "src/images/support.png" }),
-                        _react2.default.createElement(
-                            "span",
-                            { className: "contactNumber" },
-                            "+01-202-555-0181"
-                        ),
-                        _react2.default.createElement(
-                            "p",
-                            null,
-                            "71 Pilgrim Avenue Chevy Chase, MD 20815"
-                        ),
-                        _react2.default.createElement(
-                            "a",
-                            { className: "contactMail", href: "#" },
-                            "contact@example.com"
+                            _react2.default.createElement(
+                                "h7",
+                                null,
+                                "CONTACT INFO"
+                            ),
+                            _react2.default.createElement("img", { src: "src/images/support.png" }),
+                            _react2.default.createElement(
+                                "span",
+                                { className: "contactNumber" },
+                                "+01-202-555-0181"
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "71 Pilgrim Avenue Chevy Chase, MD 20815"
+                            ),
+                            _react2.default.createElement(
+                                "a",
+                                { className: "contactMail", href: "#" },
+                                "contact@example.com"
+                            )
                         )
                     )
                 )

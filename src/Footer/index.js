@@ -33,6 +33,11 @@ class Footer extends React.Component {
                         </h7>
                         <p>GreenMart App is now available on Google Play & App Store.</p>
                         <p>Get it now.</p>
+                        <div className="downloadApps">
+                            <a href="#"><img src="src/images/appstore.png" /></a>
+                            <a href="#"><img src="src/images/googleplay.png" /></a>
+                        </div>
+
                     </li>
 
                     <li>

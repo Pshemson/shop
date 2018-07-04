@@ -736,4 +736,9 @@ li {
     li {
       min-width: 116px; } }
 
+.downloadApps img {
+  max-width: 140px; }
+.downloadApps a {
+  display: inline-block; }
+
 /*# sourceMappingURL=styles.css.map */

@@ -23415,6 +23415,20 @@ var Footer = function (_React$Component) {
                                 "p",
                                 null,
                                 "Get it now."
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { className: "downloadApps" },
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "#" },
+                                    _react2.default.createElement("img", { src: "src/images/appstore.png" })
+                                ),
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "#" },
+                                    _react2.default.createElement("img", { src: "src/images/googleplay.png" })
+                                )
                             )
                         ),
                         _react2.default.createElement(

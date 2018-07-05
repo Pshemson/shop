@@ -78,7 +78,10 @@ a {
 }
 
 nav {
-    float: left;
+  float: left;
+  @include medium {
+    float: right;
+  }
     ul {
       margin: auto;
     }
@@ -96,6 +99,7 @@ nav {
       border: 1px solid #FFFFFF;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
+      text-align: center;
       transition: 0.4s all;
       &:hover {
         background: #86BC42;
@@ -159,7 +163,7 @@ h1 {
 
 .searchContainer {
   display: none;
-  @include large {
+  @include medium {
     float: left;
     margin-left: 18px;
     margin-top: 12px;
@@ -189,7 +193,6 @@ h1 {
   }
   input {
     padding: 12px;
-    padding-left: 24px;
     height: 44px;
     font-size: 14px;
     border-radius: 5px;
@@ -311,7 +314,7 @@ h1 {
 }
 
 .glassBtn {
-  @include large {
+  @include medium {
     display: none;
   }
   @include small {
@@ -774,6 +777,7 @@ h1 {
     text-align: center;
     border: 1px solid lightgrey;
     margin: 5px 0 0 5px;
+    width: calc(48% + 2px);
     &:hover {
       border: 1px solid #86BC42;
       margin: 4px 0 0 4px;
@@ -970,22 +974,23 @@ h1 {
       display: block;
     }
   }
+  h7 {
+    font-weight: bold;
+    font-size: 13px;
+    @include small {
+      font-size: 16px;
+    }
+  }
+  li {
+    display: inline-block;
+    min-width: 90px;
+    @include small {
+      min-width: 116px;
+    }
+  }
 }
 
-h7 {
-  font-weight: bold;
-  font-size: 13px;
-  @include small {
-    font-size: 16px;
-  }
-}
-li {
-  display: inline-block;
-  min-width: 90px;
-  @include small {
-    min-width: 116px;
-  }
-}
+
 
 .downloadApps {
   img {

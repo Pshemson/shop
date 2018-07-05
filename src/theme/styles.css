@@ -31,6 +31,9 @@ a {
 
 nav {
   float: left; }
+  @media (min-width: 960px) {
+    nav {
+      float: right; } }
   nav ul {
     margin: auto; }
   nav a {
@@ -47,6 +50,7 @@ nav {
         border: 1px solid #FFFFFF;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        text-align: center;
         transition: 0.4s all; }
         nav li:hover {
           background: #86BC42;
@@ -99,7 +103,7 @@ h1 {
 
 .searchContainer {
   display: none; }
-  @media (min-width: 1200px) {
+  @media (min-width: 960px) {
     .searchContainer {
       float: left;
       margin-left: 18px;
@@ -126,7 +130,6 @@ h1 {
       border: 1px solid #86BC42; }
   .searchContainer input {
     padding: 12px;
-    padding-left: 24px;
     height: 44px;
     font-size: 14px;
     border-radius: 5px;
@@ -207,7 +210,7 @@ h1 {
   color: #FFFFFF;
   transition: 0.4s all;
   background: #FFFFFF; }
-  @media (min-width: 1200px) {
+  @media (min-width: 960px) {
     .glassBtn {
       display: none; } }
   @media (min-width: 768px) {
@@ -559,7 +562,8 @@ h1 {
     display: inline-block;
     text-align: center;
     border: 1px solid lightgrey;
-    margin: 5px 0 0 5px; }
+    margin: 5px 0 0 5px;
+    width: calc(48% + 2px); }
     .dealsList .singleProduct:hover {
       border: 1px solid #86BC42;
       margin: 4px 0 0 4px; }
@@ -722,20 +726,18 @@ h1 {
       .footerInfo img {
         margin-right: 4px;
         display: block; } }
-
-h7 {
-  font-weight: bold;
-  font-size: 13px; }
-  @media (min-width: 768px) {
-    h7 {
-      font-size: 16px; } }
-
-li {
-  display: inline-block;
-  min-width: 90px; }
-  @media (min-width: 768px) {
-    li {
-      min-width: 116px; } }
+  .footerInfo h7 {
+    font-weight: bold;
+    font-size: 13px; }
+    @media (min-width: 768px) {
+      .footerInfo h7 {
+        font-size: 16px; } }
+  .footerInfo li {
+    display: inline-block;
+    min-width: 90px; }
+    @media (min-width: 768px) {
+      .footerInfo li {
+        min-width: 116px; } }
 
 .downloadApps img {
   max-width: 140px; }

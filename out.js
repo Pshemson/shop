@@ -22408,6 +22408,9 @@ var Slider = function (_React$Component) {
             currentSlide: 0
         };
         _this.nextSlide = _this.nextSlide.bind(_this);
+
+        _this.prevSlide = _this.prevSlide.bind(_this);
+
         _this.displaySlide = _this.displaySlide.bind(_this);
         return _this;
     }
@@ -22436,6 +22439,19 @@ var Slider = function (_React$Component) {
             this.displaySlide(currentSlide);
         }
     }, {
+        key: 'prevSlide',
+        value: function prevSlide() {
+            var currentSlide = this.state.currentSlide;
+
+            if (currentSlide < this.allSlides.length + 1) {
+                this.setState({
+                    currentSlide: currentSlide - 1
+                });
+            }
+
+            this.displaySlide(currentSlide);
+        }
+    }, {
         key: 'displaySlide',
         value: function displaySlide(slideNumber) {
             this.allSlides.forEach(function (slide, i) {
@@ -22451,17 +22467,113 @@ var Slider = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { className: 'slide' },
-                    'SLIDE1'
+                    _react2.default.createElement('img', { src: 'src/images/slider1.jpg' }),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'sliderText' },
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            'True ',
+                            _react2.default.createElement(
+                                'strong',
+                                null,
+                                'passionate'
+                            ),
+                            ' from our ',
+                            _react2.default.createElement(
+                                'strong',
+                                null,
+                                'farmers'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.'
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'sliderBtn' },
+                    _react2.default.createElement(
+                        'span',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { href: '#' },
+                            'GET IT NOW'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'span',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { href: '#' },
+                            'LEARN MORE'
+                        )
+                    )
                 ),
                 _react2.default.createElement(
                     'div',
                     { className: 'slide' },
-                    'SLIDE2'
+                    _react2.default.createElement('img', { src: 'src/images/slider2.jpg' }),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'sliderBtn' },
+                        _react2.default.createElement(
+                            'span',
+                            null,
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#' },
+                                'CHECK OUR PRODUCTS'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'slide' },
+                    _react2.default.createElement('img', { src: 'src/images/slider3.jpg' }),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'sliderBtn' },
+                        _react2.default.createElement(
+                            'span',
+                            null,
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#' },
+                                'DEAL OF THE DAY: Fresh EGGS!'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'slide' },
+                    _react2.default.createElement('img', { src: 'src/images/slider4.jpg' }),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'sliderBtn' },
+                        _react2.default.createElement(
+                            'span',
+                            null,
+                            _react2.default.createElement(
+                                'a',
+                                { href: '#' },
+                                'DEAL OF THE DAY: Fresh CHERRIES!'
+                            )
+                        )
+                    )
                 ),
                 _react2.default.createElement(
                     'div',
                     { className: 'sliderArrows' },
-                    _react2.default.createElement('span', { className: 'arrows prevSlide' }),
+                    _react2.default.createElement('span', { className: 'arrows prevSlide', onClick: this.prevSlide }),
                     _react2.default.createElement('span', { className: 'arrows nextSlide', onClick: this.nextSlide })
                 )
             );

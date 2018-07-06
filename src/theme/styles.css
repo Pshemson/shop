@@ -253,7 +253,8 @@ h1 {
       width: 100%;
       height: 700px; } }
   .sliderContainer .slide {
-    display: none; }
+    display: none;
+    transition: cubic-bezier(0.66, -0.15, 0.04, 1.24) 1.4s; }
   .sliderContainer img {
     position: absolute;
     left: 50%;
@@ -300,30 +301,34 @@ h1 {
           font-size: 19px; }
         .sliderContainer .sliderText h2 {
           font-size: 54px; } }
-  .sliderContainer .sliderBtn span {
-    border: 1px solid #86BC42;
-    border-radius: 5px;
-    background-color: #86BC42;
-    padding: 6px;
-    font-weight: bold;
-    font-size: 15px;
-    margin-left: 5px;
-    cursor: pointer;
-    transition: 0.4s all; }
-    @media (min-width: 960px) {
-      .sliderContainer .sliderBtn span {
-        padding: 11px; } }
-    .sliderContainer .sliderBtn span a {
-      color: #FFFFFF; }
-    .sliderContainer .sliderBtn span:hover {
-      background: #FFFFFF;
-      border: 1px solid #FFFFFF;
+  .sliderContainer .sliderBtn {
+    position: absolute;
+    top: 70%;
+    left: 30px; }
+    .sliderContainer .sliderBtn span {
+      border: 1px solid #86BC42;
+      border-radius: 5px;
+      background-color: #86BC42;
+      padding: 6px;
+      font-weight: bold;
+      font-size: 15px;
+      margin-left: 5px;
+      cursor: pointer;
       transition: 0.4s all; }
-      .sliderContainer .sliderBtn span:hover a {
-        font-weight: bold;
-        font-size: 15px;
-        color: #86BC42;
+      @media (min-width: 960px) {
+        .sliderContainer .sliderBtn span {
+          padding: 11px; } }
+      .sliderContainer .sliderBtn span a {
+        color: #FFFFFF; }
+      .sliderContainer .sliderBtn span:hover {
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
         transition: 0.4s all; }
+        .sliderContainer .sliderBtn span:hover a {
+          font-weight: bold;
+          font-size: 15px;
+          color: #86BC42;
+          transition: 0.4s all; }
   .sliderContainer .sliderArrows {
     position: absolute;
     top: 55%;
@@ -685,8 +690,10 @@ h1 {
   padding-top: 40px;
   padding-left: 0;
   margin: 0 auto;
-  max-width: 1200px;
-  flex-wrap: wrap; }
+  max-width: 1200px; }
+  @media (min-width: 460px) {
+    .footerInfo {
+      flex-wrap: wrap; } }
   .footerInfo a {
     display: block;
     font-size: 12px;

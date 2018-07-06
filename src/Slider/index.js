@@ -36,7 +36,7 @@ class Slider extends React.Component {
 
     prevSlide() {
         const { currentSlide } = this.state;
-        if (currentSlide < this.allSlides.length + 1) {
+        if (currentSlide < this.allSlides.length - 1) {
             this.setState({
                 currentSlide: currentSlide - 1
             });
@@ -71,24 +71,24 @@ class Slider extends React.Component {
                  </div>*/}
 
 
-                    <div className="slide"><img src="src/images/slider1.jpg"/>
-                        <div className="sliderText">
-                            <h2>True <strong>passionate</strong> from our <strong>farmers</strong></h2>
-                            <p>
-                                Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit
-                                lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta
-                                urna.
-                            </p>
-                        </div>
+                <div className="slide"><img src="src/images/slider1.jpg"/>
+                    <div className="sliderText">
+                        <h2>True <strong>passionate</strong> from our <strong>farmers</strong></h2>
+                        <p>
+                            Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit
+                            lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta
+                            urna.
+                        </p>
                     </div>
-                    <div className="sliderBtn">
+                </div>
+                <div className="sliderBtn">
                         <span>
                             <a href="#">GET IT NOW</a>
                         </span>
-                        <span>
+                    <span>
                             <a href="#">LEARN MORE</a>
                         </span>
-                    </div>
+                </div>
 
                 <div className="slide"><img src="src/images/slider2.jpg"/>
                     <div className="sliderBtn">

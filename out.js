@@ -22443,7 +22443,7 @@ var Slider = function (_React$Component) {
         value: function prevSlide() {
             var currentSlide = this.state.currentSlide;
 
-            if (currentSlide < this.allSlides.length + 1) {
+            if (currentSlide < this.allSlides.length - 1) {
                 this.setState({
                     currentSlide: currentSlide - 1
                 });

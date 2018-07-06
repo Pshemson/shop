@@ -544,8 +544,9 @@ h1 {
 
 .brandSlider {
   display: flex;
-  justify-content: space-between;
-  background-color: #FCFCFC; }
+  justify-content: space-around;
+  background-color: #FCFCFC;
+  flex-wrap: wrap; }
   .brandSlider img {
     opacity: 0.5; }
     .brandSlider img:hover {
@@ -684,7 +685,8 @@ h1 {
   padding-top: 40px;
   padding-left: 0;
   margin: 0 auto;
-  max-width: 1200px; }
+  max-width: 1200px;
+  flex-wrap: wrap; }
   .footerInfo a {
     display: block;
     font-size: 12px;

@@ -138,33 +138,38 @@ nav {
 
 .menuFirstList {
   position: relative;
-  .submenuFirst {
-    position: absolute;
-    border: 1px solid red;
-    padding-left: 0;
-    z-index: 2;
-    margin-left: -10px;
-    margin-top: 10px;
-    background: white;
-    li {
-      cursor: pointer;
-      padding: 9px 60px 9px 9px;
-      transition: 0.4s all;
-      border: none;
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
-      &:hover {
-        background: #86BC42;
+  ul {
+    display: none;
+  }
+  &:hover {
+    .submenuFirst {
+      position: absolute;
+      padding-left: 0;
+      z-index: 2;
+      margin-left: -10px;
+      margin-top: 10px;
+      background: white;
+      display: block;
+      li {
+        cursor: pointer;
+        padding: 9px 60px 9px 9px;
+        transition: 0.4s all;
+        border: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        &:hover {
+          background: #86BC42;
+          a {
+            font-weight: bold;
+            font-size: 14px;
+            color: #FFFFFF;
+          }
+        }
         a {
           font-weight: bold;
           font-size: 14px;
-          color: #FFFFFF;
+          color: #000000;
         }
-      }
-      a {
-        font-weight: bold;
-        font-size: 14px;
-        color: #000000;
       }
     }
   }

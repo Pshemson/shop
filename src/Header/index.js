@@ -1,6 +1,18 @@
 import React from 'react';
 
 class Header extends React.Component {
+    constructor() {
+        super(...arguments);
+        this.state = {
+            showMenu: false,
+        };
+
+    //    this.showMenu = this.showMenu.bind(this);
+    }
+
+
+
+
 
     // Lifecycle w ktorym zaladowany jest
     componentDidMount() {
@@ -21,9 +33,27 @@ class Header extends React.Component {
                 </div>
                 <nav>
                     <ul>
-                        <li>
+                        <li className="menuFirstList" onMouseOver={this.showMenu}>
                             <a href="#">Home &or;</a>
+                            <ul className="submenuFirst">
+                                <li>
+                                    <a href="#">Lorem</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ipsum</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lorem</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ipsum</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lorem</a>
+                                </li>
+                            </ul>
                         </li>
+
                         <li>
                             <a href="#">Shop &or;</a>
                         </li>

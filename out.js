@@ -22219,14 +22219,21 @@ var Header = function (_React$Component) {
     function Header() {
         _classCallCheck(this, Header);
 
-        return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+        var _this = _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+
+        _this.state = {
+            showMenu: false
+        };
+
+        //    this.showMenu = this.showMenu.bind(this);
+        return _this;
     }
+
+    // Lifecycle w ktorym zaladowany jest
+
 
     _createClass(Header, [{
         key: "componentDidMount",
-
-
-        // Lifecycle w ktorym zaladowany jest
         value: function componentDidMount() {}
     }, {
         key: "render",
@@ -22268,11 +22275,60 @@ var Header = function (_React$Component) {
                         null,
                         _react2.default.createElement(
                             "li",
-                            null,
+                            { className: "menuFirstList", onMouseOver: this.showMenu },
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
                                 "Home \u2228"
+                            ),
+                            _react2.default.createElement(
+                                "ul",
+                                { className: "submenuFirst" },
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Lorem"
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Ipsum"
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Lorem"
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Ipsum"
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Lorem"
+                                    )
+                                )
                             )
                         ),
                         _react2.default.createElement(

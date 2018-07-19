@@ -79,6 +79,34 @@ nav {
             color: #FFFFFF;
             transition: 0.4s all; } }
 
+.menuFirstList {
+  position: relative; }
+  .menuFirstList .submenuFirst {
+    position: absolute;
+    border: 1px solid red;
+    padding-left: 0;
+    z-index: 2;
+    margin-left: -10px;
+    margin-top: 10px;
+    background: white; }
+    .menuFirstList .submenuFirst li {
+      cursor: pointer;
+      padding: 9px 60px 9px 9px;
+      transition: 0.4s all;
+      border: none;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0; }
+      .menuFirstList .submenuFirst li:hover {
+        background: #86BC42; }
+        .menuFirstList .submenuFirst li:hover a {
+          font-weight: bold;
+          font-size: 14px;
+          color: #FFFFFF; }
+      .menuFirstList .submenuFirst li a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #000000; }
+
 h1 {
   float: left;
   margin: 0; }

@@ -2,6 +2,6 @@ Online shop (in progress)
 
 Technologies:
 
-ReactJS, Styled-Components, React Routing, RWD.
+ReactJS, HTML, CSS, RWD.
 
 Live: https://pshemson.github.io/shop/

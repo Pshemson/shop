@@ -22283,7 +22283,65 @@ var Header = function (_React$Component) {
                             ),
                             _react2.default.createElement(
                                 "ul",
-                                { className: "submenuFirst" },
+                                { className: "submenuHome" },
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Lorem"
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Ipsum"
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Lorem"
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Ipsum"
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "#" },
+                                        "Lorem"
+                                    )
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            { className: "menuSecondList" },
+                            _react2.default.createElement(
+                                "a",
+                                { href: "#" },
+                                "Shop \u2228"
+                            ),
+                            _react2.default.createElement(
+                                "ul",
+                                { className: "submenuShop" },
                                 _react2.default.createElement(
                                     "li",
                                     null,
@@ -22337,16 +22395,7 @@ var Header = function (_React$Component) {
                             _react2.default.createElement(
                                 "a",
                                 { href: "#" },
-                                "Shop \u2228"
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "#" },
-                                "Blog \u2228"
+                                "Blog"
                             )
                         ),
                         _react2.default.createElement(
@@ -22392,11 +22441,11 @@ var Header = function (_React$Component) {
                     { className: "mobileMenu" },
                     _react2.default.createElement(
                         "nav",
-                        { className: "navBar" },
+                        { className: "mobileIcon" },
                         _react2.default.createElement(
-                            "button",
-                            { className: "mobileIcon" },
-                            _react2.default.createElement("span", null)
+                            "span",
+                            null,
+                            " "
                         )
                     ),
                     _react2.default.createElement(

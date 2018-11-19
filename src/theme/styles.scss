@@ -1,5 +1,12 @@
 //Mixins
 //RWD:  Minimum widths to apply styles (mobile first)
+
+@mixin smallest {
+  @media (min-width: 320px) {
+    @content;
+  }
+}
+
 @mixin xsmall {
   @media (min-width: 460px) {
     @content;
@@ -84,6 +91,9 @@ nav {
   }
     ul {
       margin: auto;
+      @include medium {
+        padding: 0;
+      }
     }
     a {
       font-weight: bold;
@@ -139,10 +149,10 @@ nav {
 .menuFirstList {
   position: relative;
   ul {
-    display: none;
+    display: none;   //tutaj trzeba dac ul ? nie da sie z uzyciem nazw class?
   }
   &:hover {
-    .submenuFirst {
+    .submenuHome {
       position: absolute;
       padding-left: 0;
       z-index: 2;
@@ -174,6 +184,48 @@ nav {
     }
   }
 }
+
+.menuSecondList {
+  position: relative;
+  ul {
+    display: none;   //tutaj trzeba dac ul ? nie da sie z uzyciem nazw class?
+  }
+  &:hover {
+    .submenuShop {
+      position: absolute;
+      padding-left: 0;
+      z-index: 2;
+      margin-left: -10px;
+      margin-top: 10px;
+      background: white;
+      display: block;
+      li {
+        cursor: pointer;
+        padding: 9px 60px 9px 9px;
+        transition: 0.4s all;
+        border: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        &:hover {
+          background: #86BC42;
+          a {
+            font-weight: bold;
+            font-size: 14px;
+            color: #FFFFFF;
+          }
+        }
+        a {
+          font-weight: bold;
+          font-size: 14px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
+
+
+
 
 h1 {
   float:left;
@@ -258,78 +310,37 @@ h1 {
 
 .mobileMenu {
   float: right;
-
-  .navBar {
+  .mobileIcon {
+    width: 54px;
+    height: 54px;
+    background: #86BC42;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.4s all;
+    transform: rotateX(38deg);
+    &:hover {
+      transform: rotateX(0deg);
+    }
     @include small {
       display: none;
     }
     :before {
       content: " ";
-      display: table;
-    }
-    padding: 0;
-    margin: 0;
-    border-radius: 0;
-  }
-
-
-  .mobileIcon {
-    display: inline-block;
-    color: #66b700;
-    background: none;
-    cursor: pointer;
-    position: relative;
-    z-index: 100;
-    border: 0;
-    padding: 26px;
-    transition: .5s ease-in-out;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    span {
-      display: block;
+      width: 54px;
+      height: 10px;
       position: absolute;
-      height: 4px;
-      content: "";
-      width: 100%;
-      background: #19ff00;
-      border-radius: 9px;
-      opacity: 1;
-      left: 0;
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-      transition: .25s ease-in-out;
+      top: 11px;
+      background-color: white;
+    }
+    :after {
+      content: " ";
+      width: 54px;
+      height: 10px;
+      position: absolute;
+      top: 33px;
+      background-color: white;
     }
   }
-
-
-  //.hamburger {
-  //  @include small {
-  //    display: none;
-  //  }
-  //  width: 22px;
-  //  height: 22px;
-  //  border: 0;
-  //  border-top: 2px solid #fbefff;
-  //  background: transparent;
-  //  position: relative;
-  //  transform: translateY(5px);
-  //}
-  //
-  //.hamburger::before, .hamburger::after {
-  //  content: '';
-  //  position: absolute;
-  //  top: -3px;
-  //  left: 0;
-  //  width: 100%;
-  //  border-top: 2px solid #fbefff;
-  //  transform: translateY(10px);
-  //}
-  //
-  //.hamburger::after {
-  //  transform: translateY(18px);
-  //
-  //}
-
   .mobileBtn {
     @include small {
       display: none;
@@ -479,8 +490,11 @@ h1 {
 
   .sliderBtn {
     position: absolute;
-    top: 70%;
+    top: 83%;
     left: 30px;
+    @include large {
+      top:70%;
+    }
     span {
       @include medium {
         padding: 11px;
@@ -509,13 +523,8 @@ h1 {
           transition: 0.4s all;
         }
       }
-
     }
-
-
   }
-
-
   .sliderArrows {
     position: absolute;
     top: 55%;
@@ -527,6 +536,11 @@ h1 {
       margin-top: -31px;
       color: #86BC42;
       cursor: pointer;
+      &:hover {
+        color: white;
+        width: 38px;
+        height: 38px;
+      }
     }
     .prevSlide {
       border-bottom: 6px solid;
@@ -540,6 +554,7 @@ h1 {
       border-left: 6px solid;
       transform: rotate(-135deg);
       right: 8px;
+
 
     }
   }
@@ -714,7 +729,6 @@ h1 {
     width: calc(48% + 2px);
     &:hover {
       border: 1px solid #86BC42;
-      margin: 4px 0 0 4px;
     }
     h3 {
       font-weight: bold;
@@ -728,7 +742,6 @@ h1 {
     img {
       width: 100%;
       height: 100%;
-      padding: 1px;
     }
   }
   .productPrice {
@@ -825,7 +838,6 @@ h1 {
     width: calc(48% + 2px);
     &:hover {
       border: 1px solid #86BC42;
-      margin: 4px 0 0 4px;
     }
     h3 {
       font-weight: bold;
@@ -839,7 +851,6 @@ h1 {
     img {
       width: 100%;
       height: 100%;
-      padding: 1px;
     }
   }
   span {
@@ -968,8 +979,9 @@ h1 {
   padding-left: 0;
   margin: 0 auto;
   max-width: 1200px;
-  @include xsmall {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+  @include small {
+    flex-wrap: nowrap;
   }
   a {
     display: block;
@@ -1032,7 +1044,7 @@ h1 {
   li {
     display: inline-block;
     min-width: 90px;
-    @include small {
+    @include xsmall {
       min-width: 116px;
     }
   }

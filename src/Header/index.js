@@ -35,7 +35,7 @@ class Header extends React.Component {
                     <ul>
                         <li className="menuFirstList" onMouseOver={this.showMenu}>
                             <a href="#">Home &or;</a>
-                            <ul className="submenuFirst">
+                            <ul className="submenuHome">
                                 <li>
                                     <a href="#">Lorem</a>
                                 </li>
@@ -54,11 +54,28 @@ class Header extends React.Component {
                             </ul>
                         </li>
 
-                        <li>
+                        <li className="menuSecondList">
                             <a href="#">Shop &or;</a>
+                            <ul className="submenuShop">
+                                <li>
+                                    <a href="#">Lorem</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ipsum</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lorem</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ipsum</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lorem</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <a href="#">Blog &or;</a>
+                            <a href="#">Blog</a>
                         </li>
                         <li>
                             <a href="#">Pages</a>
@@ -75,8 +92,8 @@ class Header extends React.Component {
                     </ul>
                 </nav>
                 <div className="mobileMenu">
-                    <nav className="navBar">
-                        <button className="mobileIcon"><span></span></button>
+                    <nav className="mobileIcon">
+                        <span> </span>
                     </nav>
                     <a href="#" ><img className="glassBtn" src="src/images/glass1.png"/></a>
                     <a href="#"><img className="mobileBtn" src="src/images/avatar.png"/></a>

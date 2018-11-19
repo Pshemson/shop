@@ -36,6 +36,9 @@ nav {
       float: right; } }
   nav ul {
     margin: auto; }
+    @media (min-width: 960px) {
+      nav ul {
+        padding: 0; } }
   nav a {
     font-weight: bold;
     font-size: 14px; }
@@ -83,7 +86,7 @@ nav {
   position: relative; }
   .menuFirstList ul {
     display: none; }
-  .menuFirstList:hover .submenuFirst {
+  .menuFirstList:hover .submenuHome {
     position: absolute;
     padding-left: 0;
     z-index: 2;
@@ -91,20 +94,50 @@ nav {
     margin-top: 10px;
     background: white;
     display: block; }
-    .menuFirstList:hover .submenuFirst li {
+    .menuFirstList:hover .submenuHome li {
       cursor: pointer;
       padding: 9px 60px 9px 9px;
       transition: 0.4s all;
       border: none;
       border-top-left-radius: 0;
       border-top-right-radius: 0; }
-      .menuFirstList:hover .submenuFirst li:hover {
+      .menuFirstList:hover .submenuHome li:hover {
         background: #86BC42; }
-        .menuFirstList:hover .submenuFirst li:hover a {
+        .menuFirstList:hover .submenuHome li:hover a {
           font-weight: bold;
           font-size: 14px;
           color: #FFFFFF; }
-      .menuFirstList:hover .submenuFirst li a {
+      .menuFirstList:hover .submenuHome li a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #000000; }
+
+.menuSecondList {
+  position: relative; }
+  .menuSecondList ul {
+    display: none; }
+  .menuSecondList:hover .submenuShop {
+    position: absolute;
+    padding-left: 0;
+    z-index: 2;
+    margin-left: -10px;
+    margin-top: 10px;
+    background: white;
+    display: block; }
+    .menuSecondList:hover .submenuShop li {
+      cursor: pointer;
+      padding: 9px 60px 9px 9px;
+      transition: 0.4s all;
+      border: none;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0; }
+      .menuSecondList:hover .submenuShop li:hover {
+        background: #86BC42; }
+        .menuSecondList:hover .submenuShop li:hover a {
+          font-weight: bold;
+          font-size: 14px;
+          color: #FFFFFF; }
+      .menuSecondList:hover .submenuShop li a {
         font-weight: bold;
         font-size: 14px;
         color: #000000; }
@@ -179,41 +212,33 @@ h1 {
 
 .mobileMenu {
   float: right; }
-  .mobileMenu .navBar {
-    padding: 0;
-    margin: 0;
-    border-radius: 0; }
-    @media (min-width: 768px) {
-      .mobileMenu .navBar {
-        display: none; } }
-    .mobileMenu .navBar :before {
-      content: " ";
-      display: table; }
   .mobileMenu .mobileIcon {
+    width: 54px;
+    height: 54px;
+    background: #86BC42;
     display: inline-block;
-    color: #66b700;
-    background: none;
     cursor: pointer;
-    position: relative;
-    z-index: 100;
-    border: 0;
-    padding: 26px;
-    transition: .5s ease-in-out;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-    .mobileMenu .mobileIcon span {
-      display: block;
+    transition: 0.4s all;
+    transform: rotateX(38deg); }
+    .mobileMenu .mobileIcon:hover {
+      transform: rotateX(0deg); }
+    @media (min-width: 768px) {
+      .mobileMenu .mobileIcon {
+        display: none; } }
+    .mobileMenu .mobileIcon :before {
+      content: " ";
+      width: 54px;
+      height: 10px;
       position: absolute;
-      height: 4px;
-      content: "";
-      width: 100%;
-      background: #19ff00;
-      border-radius: 9px;
-      opacity: 1;
-      left: 0;
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-      transition: .25s ease-in-out; }
+      top: 11px;
+      background-color: white; }
+    .mobileMenu .mobileIcon :after {
+      content: " ";
+      width: 54px;
+      height: 10px;
+      position: absolute;
+      top: 33px;
+      background-color: white; }
   .mobileMenu .mobileBtn {
     border: 1px solid #d0d0d0;
     padding: 10px;
@@ -333,8 +358,11 @@ h1 {
           font-size: 54px; } }
   .sliderContainer .sliderBtn {
     position: absolute;
-    top: 70%;
+    top: 83%;
     left: 30px; }
+    @media (min-width: 1200px) {
+      .sliderContainer .sliderBtn {
+        top: 70%; } }
     .sliderContainer .sliderBtn span {
       border: 1px solid #86BC42;
       border-radius: 5px;
@@ -370,6 +398,10 @@ h1 {
       margin-top: -31px;
       color: #86BC42;
       cursor: pointer; }
+      .sliderContainer .sliderArrows .arrows:hover {
+        color: white;
+        width: 38px;
+        height: 38px; }
     .sliderContainer .sliderArrows .prevSlide {
       border-bottom: 6px solid;
       border-left: 6px solid;
@@ -513,8 +545,7 @@ h1 {
     margin: 5px 0 0 5px;
     width: calc(48% + 2px); }
     .productsList .singleProduct:hover {
-      border: 1px solid #86BC42;
-      margin: 4px 0 0 4px; }
+      border: 1px solid #86BC42; }
     .productsList .singleProduct h3 {
       font-weight: bold; }
       .productsList .singleProduct h3:hover {
@@ -524,8 +555,7 @@ h1 {
         width: calc(25% - 5px); } }
     .productsList .singleProduct img {
       width: 100%;
-      height: 100%;
-      padding: 1px; }
+      height: 100%; }
   .productsList .productPrice {
     border: 1px solid #86BC42;
     border-radius: 20%;
@@ -601,8 +631,7 @@ h1 {
     margin: 5px 0 0 5px;
     width: calc(48% + 2px); }
     .dealsList .singleProduct:hover {
-      border: 1px solid #86BC42;
-      margin: 4px 0 0 4px; }
+      border: 1px solid #86BC42; }
     .dealsList .singleProduct h3 {
       font-weight: bold; }
       .dealsList .singleProduct h3:hover {
@@ -612,8 +641,7 @@ h1 {
         width: calc(33% - 5px); } }
     .dealsList .singleProduct img {
       width: 100%;
-      height: 100%;
-      padding: 1px; }
+      height: 100%; }
   .dealsList span:nth-child(2) {
     border: 1px solid #86BC42;
     border-radius: 20%;
@@ -720,10 +748,11 @@ h1 {
   padding-top: 40px;
   padding-left: 0;
   margin: 0 auto;
-  max-width: 1200px; }
-  @media (min-width: 460px) {
+  max-width: 1200px;
+  flex-wrap: wrap; }
+  @media (min-width: 768px) {
     .footerInfo {
-      flex-wrap: wrap; } }
+      flex-wrap: nowrap; } }
   .footerInfo a {
     display: block;
     font-size: 12px;
@@ -774,7 +803,7 @@ h1 {
   .footerInfo li {
     display: inline-block;
     min-width: 90px; }
-    @media (min-width: 768px) {
+    @media (min-width: 460px) {
       .footerInfo li {
         min-width: 116px; } }
 

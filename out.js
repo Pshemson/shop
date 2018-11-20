@@ -22440,17 +22440,89 @@ var Header = function (_React$Component) {
                     "div",
                     { className: "mobileMenu" },
                     _react2.default.createElement(
-                        "nav",
+                        "span",
                         { className: "mobileIcon" },
                         _react2.default.createElement(
-                            "span",
-                            null,
-                            " "
+                            "ul",
+                            { className: "menuHamburger" },
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "#" },
+                                    "Home"
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "#" },
+                                    "Shop"
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "#" },
+                                    "Blog"
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "#" },
+                                    "Pages"
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "#" },
+                                    "Fresh Meat"
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "#" },
+                                    "Vegetables"
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "#" },
+                                    "Fruits"
+                                )
+                            )
                         )
                     ),
                     _react2.default.createElement(
                         "a",
-                        { href: "#" },
+                        { className: "actionSearchBtn", href: "#" },
+                        _react2.default.createElement(
+                            "div",
+                            { className: "searchContainerMobile" },
+                            _react2.default.createElement("input", { placeholder: "Search..." }),
+                            _react2.default.createElement(
+                                "span",
+                                null,
+                                "SEARCH"
+                            )
+                        ),
                         _react2.default.createElement("img", { className: "glassBtn", src: "src/images/glass1.png" })
                     ),
                     _react2.default.createElement(

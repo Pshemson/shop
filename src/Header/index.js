@@ -92,10 +92,38 @@ class Header extends React.Component {
                     </ul>
                 </nav>
                 <div className="mobileMenu">
-                    <nav className="mobileIcon">
-                        <span> </span>
-                    </nav>
-                    <a href="#" ><img className="glassBtn" src="src/images/glass1.png"/></a>
+                    <span className="mobileIcon">
+                        <ul className="menuHamburger">
+                          <li>
+                            <a href="#">Home</a>
+                          </li>
+                          <li>
+                            <a href="#">Shop</a>
+                          </li>
+                          <li>
+                            <a href="#">Blog</a>
+                          </li>
+                          <li>
+                            <a href="#">Pages</a>
+                          </li>
+                          <li>
+                            <a href="#">Fresh Meat</a>
+                          </li>
+                          <li>
+                            <a href="#">Vegetables</a>
+                          </li>
+                          <li>
+                            <a href="#">Fruits</a>
+                         </li>
+                       </ul>
+                    </span>
+                    <a className="actionSearchBtn" href="#" >
+                        <div className="searchContainerMobile">
+                        <input placeholder="Search..."/>
+                        <span>SEARCH</span>
+                    </div>
+                        <img className="glassBtn" src="src/images/glass1.png"/>
+                    </a>
                     <a href="#"><img className="mobileBtn" src="src/images/avatar.png"/></a>
                     <a href="#"><img className="mobileBtn" src="src/images/cart.png"/></a>
                 </div>

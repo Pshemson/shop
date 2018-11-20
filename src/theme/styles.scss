@@ -13,6 +13,12 @@
   }
 }
 
+@mixin Lsmall {
+  @media (min-width: 570px) {
+    @content;
+  }
+}
+
 @mixin small {
   @media (min-width: 768px) {
     @content;
@@ -318,13 +324,10 @@ h1 {
     cursor: pointer;
     transition: 0.4s all;
     transform: rotateX(38deg);
-    &:hover {
-      transform: rotateX(0deg);
-    }
     @include small {
       display: none;
     }
-    :before {
+    &:before {
       content: " ";
       width: 54px;
       height: 10px;
@@ -332,7 +335,7 @@ h1 {
       top: 11px;
       background-color: white;
     }
-    :after {
+    &:after {
       content: " ";
       width: 54px;
       height: 10px;
@@ -340,7 +343,48 @@ h1 {
       top: 33px;
       background-color: white;
     }
+    .menuHamburger {
+      display: none;
+    }
+    &:hover {
+      transform: rotateX(0deg);
+      .menuHamburger {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        flex-wrap: wrap;
+        position: absolute;
+        z-index: 2;
+        background-color: white;
+        margin: 0;
+        width: 100%;
+        left: 0;
+        @include small {
+          display: none;
+        }
+        li {
+          display: inline-block;
+          cursor: pointer;
+          padding: 5px;
+          transition: 0.4s all;
+          a {
+            font-weight: bold;
+            font-size: 14px;
+            color: #000000;
+          }
+          &:hover {
+            background: #86BC42;
+            a {
+              font-weight: bold;
+              font-size: 14px;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
   }
+
   .mobileBtn {
     @include small {
       display: none;
@@ -402,7 +446,67 @@ h1 {
   }
 }
 
-
+.actionSearchBtn {
+  .searchContainerMobile {
+    display: none;
+  }
+  &:hover {
+    .searchContainerMobile {
+      position: absolute;
+      z-index: 3;
+      width: 100%;
+      left: 13%;
+      margin: 0;
+      top: 57px;
+      display: inline-block;
+      width: 266px;
+      @include medium {
+        display: none;
+      }
+      @include xsmall {
+        left: 19%;
+        top: 57px;
+      }
+      @include Lsmall {
+        left: 13%;
+        top: 8px;
+      }
+      @include small {
+        left: 35%;
+        top: 56px;
+      }
+      span {
+        font-size: 13px;
+        cursor: pointer;
+        text-align: center;
+        text-transform: uppercase;
+        height: 2px;
+        padding: 8px;
+        margin: 0 1px 0;
+        font-weight: bold;
+        letter-spacing: 0;
+        border-radius: 5px;
+        border: 1px solid #e6e6e6;
+        color: #FFFFFF;
+        background-color: #86BC42;
+        transition: 0.4s all;
+        &:hover {
+          background: #FFFFFF;
+          color: #86BC42;
+          border: 1px solid #86BC42;
+        }
+      }
+      input {
+        padding: 2px;
+        height: 33px;
+        font-size: 14px;
+        border-radius: 5px;
+        border: 1px solid #e6e6e6;
+        line-height: 1.5;
+      }
+    }
+  }
+}
 
 //Slider
 
